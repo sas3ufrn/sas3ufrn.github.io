@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem "jekyll", "~> 4.4"
+gem "faraday-retry"
 
 group :jekyll_plugins do
   gem 'jekyll-gist'
