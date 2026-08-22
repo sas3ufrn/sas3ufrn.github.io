@@ -1,13 +1,11 @@
 source 'https://rubygems.org'
 
-gem "jekyll", "~> 4.4"
-gem "faraday-retry"
+gem 'jekyll'
 
 group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-paginate'
   gem "jekyll-asciidoc"
-  gem "github-pages", "~> 232",
 end
 
 gem 'asciidoctor', '~> 1.5.4'
