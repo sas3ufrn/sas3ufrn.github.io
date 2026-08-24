@@ -1,7 +1,9 @@
 ---
 layout: splash
+hidden: true
 header:
-  image_fullwidth: programacao-header.png
+  overlay_color: "#5e616c"
+  overlay_image: /images/programacao-header.png
 title: "Programação"
 permalink: /programacao/
 ---

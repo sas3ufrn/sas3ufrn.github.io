@@ -1,7 +1,9 @@
 ---
 layout: splash
+hidden: true
 header:
-  image_fullwidth: inscricao-header.png
+  overlay_color: "#5e616c"
+  overlay_image: /images/inscricao-header.png
 title: "Inscrições"
 permalink: /inscricoes/
 ---
@@ -20,11 +22,7 @@ Se você deseja submeter trabalhos para o simpósio, fique atento às datas:
 *   **Avaliação:** 01/10/2026 a 16/10/2026.
 *   **Envio da versão final:** até 23/10/2026.
 
-<div class="text-center" style="margin-top: 40px; margin-bottom: 40px;">
-    <a href="https://forms.gle/bvFogp6bJjtkNmXx9" target="_blank" class="button large radius">
-        Realizar inscrição
-    </a>
-</div>
+<a href="https://forms.gle/bvFogp6bJjtkNmXx9" class="btn btn--sucess btn--large">Realizar Inscrição</a>
 
 ---
 
