@@ -4,7 +4,7 @@ header:
   overlay_image: /images/laut-header.png
 title: "Organização"
 meta_title: "Organização do evento"
-permalink: /contact/
+permalink: /organizacao/
 ---
 
 <div style="border: 1px solid #e1e1e1; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">

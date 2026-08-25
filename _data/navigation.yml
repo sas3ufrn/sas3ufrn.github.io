@@ -16,6 +16,6 @@ main:
   url: "/inscricoes/"
   side: left
 
-- title: "Contato"
-  url: "/contact/"
+- title: "Organização"
+  url: "/organizacao/"
   side: right

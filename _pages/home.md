@@ -2,6 +2,8 @@
 layout: splash
 header:
   overlay_image: /images/morro-careca.jpg
+#  overlay_filter:  linear-gradient(45deg, blue, red)
+  overlay_filter: rgba(255, 119, 0, 0.33)
   overlay_color: "rgba(0, 0, 0, 0.5)"
 title: ""
 excerpt: "11 e 12 de novembro de 2026 <br /> <small>DCA/CT/UFRN</small>"
