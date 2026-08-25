@@ -11,7 +11,7 @@ permalink: /organizacao/
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d845.2623158137193!2d-35.19824849323728!3d-5.8433591238241265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff75c95a517f%3A0xe7678aeddf068e4d!2sLaborat%C3%B3rio%20de%20Automa%C3%A7%C3%A3o%20(LAUT)!5e1!3m2!1spt-BR!2sbr!4v1787654551276!5m2!1spt-BR!2sbr"
     width="100%"
-    height="400"
+    height="600"
     style="border:0; display:block;"
     loading="lazy">
   </iframe>

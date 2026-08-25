@@ -27,3 +27,15 @@ Sugere-se utilizar os seguintes modelos para a apresentação do trabalho:
 <a href="/files/modelo-slides-powerpoint.zip"  class="btn btn--info"> <i class="fa-solid fa-person-chalkboard"></i> Modelo de Slides em Word </a>
 
 ---
+
+A submissão do artigo deverá ser feita através do email <a href="mailto:submissao.sas@gmail.com" class="btn btn--warning"> <i class="fas fa-envelope"></i> submissao.sas@gmail.com </a> contendo as seguintes informações:
+
+> - Assunto do e-mail: **Submissão de artigo para o III SAS**
+- Nome completo dos autores
+- Endereço de e-mail
+- Título do artigo
+- Resumo (máximo de 250 palavras)
+- Palavras-chave
+- Nome do instituto ou empresa
+- Endereço do instituto ou empresa
+
