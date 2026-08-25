@@ -41,5 +41,5 @@ permalink: /organizacao/
 * Dominic
 * Fernando Couto
 
-Para dúvidas sobre submissões, inscrições ou programação, entre em contato através dos canais oficiais da instituição organizadora.
+Para dúvidas sobre submissões, inscrições ou programação, entre em contato através do canal oficial da instituição organizadora <a href="mailto:submissao.sas@gmail.com" class="btn btn--warning"> <i class="fas fa-envelope"></i> submissao.sas@gmail.com </a>.
 
