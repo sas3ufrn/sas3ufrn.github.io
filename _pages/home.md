@@ -4,6 +4,7 @@ header:
   overlay_image: /images/morro-careca.jpg
   overlay_color: "rgba(0, 0, 0, 0.5)"
 title: ""
+excerpt: "11 e 12 de novembro de 2026 <br /> <small>DCA/CT/UFRN</small>"
 permalink: /
 ---
 
@@ -14,6 +15,7 @@ O evento promove a integração entre universidade, pesquisa, tecnologia e indú
 ## Comemoração Especial: 30 Anos de Engenharia da Computação
 
 Nesta edição, o III SAS celebra os **30 anos do curso de Engenharia da Computação**. É um momento especial para reconhecer a trajetória do curso, sua contribuição para a formação de profissionais e pesquisadores, e para projetar os próximos anos da tecnologia e inovação. Durante o evento, teremos uma programação dedicada a essa história de três décadas.
+{: .notice--info}
 
 ## O que você vai encontrar?
 

@@ -4,8 +4,8 @@ main:
   url: "/"
   side: left
 
-- title: "Sobre"
-  url: "/sobre/"
+- title: "Informações aos Autores"
+  url: "/autores/"
   side: left
 
 - title: "Programação"
