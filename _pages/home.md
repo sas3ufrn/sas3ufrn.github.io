@@ -48,6 +48,7 @@ O III SAS é realizado pela **Universidade Federal do Rio Grande do Norte (UFRN)
 
 Acompanhe as informações sobre a **programação**, as **inscrições** e as demais atividades do evento.
 
-[Confira a programação](/programacao/){: .button}
 
-[Informações sobre inscrições](/inscricoes/){: .button}
+[Confira a programação](/programacao/){: .btn .btn--primary}
+
+[Informações sobre inscrições](/inscricoes/){: .btn .btn--primary}
