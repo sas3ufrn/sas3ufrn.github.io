@@ -1,0 +1,697 @@
+.:
+total 104
+-rw-rw-r--  1 ambj ambj   161 Aug 24 19:34 Gemfile
+-rw-rw-r--  1 ambj ambj 19937 Aug 24 19:35 Gemfile.lock
+-rw-rw-r--  1 ambj ambj  1101 Aug 23 10:53 LICENSE
+-rw-rw-r--  1 ambj ambj  5708 Aug 23 10:53 Rakefile
+-rw-rw-r--  1 ambj ambj 11322 Aug 24 21:22 _config.yml
+drwxrwxr-x  2 ambj ambj  4096 Aug 23 10:53 _data
+drwxrwxr-x  7 ambj ambj  4096 Aug 23 10:53 _includes
+drwxrwxr-x  2 ambj ambj  4096 Aug 23 10:53 _layouts
+drwxrwxr-x  2 ambj ambj  4096 Aug 24 20:45 _pages
+drwxrwxr-x  3 ambj ambj  4096 Aug 23 10:53 _sass
+drwxrwxr-x 15 ambj ambj  4096 Aug 24 21:28 _site
+drwxrwxr-x  5 ambj ambj  4096 Aug 24 17:10 assets
+drwxrwxr-x  2 ambj ambj  4096 Aug 24 20:33 images
+-rw-rw-r--  1 ambj ambj    42 Aug 23 10:53 index.html
+-rw-rw-r--  1 ambj ambj  1157 Aug 23 10:53 minimal-mistakes-jekyll.gemspec
+-rw-rw-r--  1 ambj ambj   740 Aug 23 10:53 package-lock.json
+-rw-rw-r--  1 ambj ambj   595 Aug 23 10:53 package.json
+-rw-rw-r--  1 ambj ambj     0 Aug 24 21:29 saida.txt
+-rw-rw-r--  1 ambj ambj  3768 Aug 23 10:53 staticman.yml
+drwxrwxr-x  9 ambj ambj  4096 Aug 23 10:53 test
+
+./_data:
+total 116
+-rw-rw-r-- 1 ambj ambj    285 Aug 24 19:59 navigation.yml
+-rw-rw-r-- 1 ambj ambj 112939 Aug 23 10:53 ui-text.yml
+
+./_includes:
+total 216
+-rw-rw-r-- 1 ambj ambj     0 Aug 23 10:53 after-content.html
+drwxrwxr-x 2 ambj ambj  4096 Aug 23 10:53 analytics-providers
+-rw-rw-r-- 1 ambj ambj   541 Aug 23 10:53 analytics.html
+-rw-rw-r-- 1 ambj ambj  1455 Aug 23 10:53 archive-single.html
+-rw-rw-r-- 1 ambj ambj   230 Aug 23 10:53 author-profile-custom-links.html
+-rw-rw-r-- 1 ambj ambj 10045 Aug 23 10:53 author-profile.html
+-rw-rw-r-- 1 ambj ambj     0 Aug 23 10:53 before-related.html
+-rw-rw-r-- 1 ambj ambj  1837 Aug 23 10:53 breadcrumbs.html
+-rw-rw-r-- 1 ambj ambj   908 Aug 23 10:53 category-list.html
+-rw-rw-r-- 1 ambj ambj  1184 Aug 23 10:53 comment.html
+drwxrwxr-x 2 ambj ambj  4096 Aug 23 10:53 comments-providers
+-rw-rw-r-- 1 ambj ambj 11609 Aug 23 10:53 comments.html
+-rw-rw-r-- 1 ambj ambj   309 Aug 23 10:53 copyright.html
+-rw-rw-r-- 1 ambj ambj   313 Aug 23 10:53 copyright.js
+-rw-rw-r-- 1 ambj ambj   482 Aug 23 10:53 documents-collection.html
+-rw-rw-r-- 1 ambj ambj  1399 Aug 23 10:53 feature_row
+-rw-rw-r-- 1 ambj ambj   578 Aug 23 10:53 figure
+drwxrwxr-x 2 ambj ambj  4096 Aug 23 10:53 footer
+-rw-rw-r-- 1 ambj ambj  1715 Aug 23 10:53 footer.html
+-rw-rw-r-- 1 ambj ambj  1120 Aug 23 10:53 gallery
+-rw-rw-r-- 1 ambj ambj  1159 Aug 23 10:53 group-by-array
+drwxrwxr-x 2 ambj ambj  4096 Aug 23 10:53 head
+-rw-rw-r-- 1 ambj ambj  1350 Aug 23 10:53 head.html
+-rw-rw-r-- 1 ambj ambj  1858 Aug 23 10:53 masthead.html
+-rw-rw-r-- 1 ambj ambj  1152 Aug 23 10:53 nav_list
+-rw-rw-r-- 1 ambj ambj   818 Aug 23 10:53 page__date.html
+-rw-rw-r-- 1 ambj ambj  2987 Aug 23 10:53 page__hero.html
+-rw-rw-r-- 1 ambj ambj   117 Aug 23 10:53 page__hero_video.html
+-rw-rw-r-- 1 ambj ambj  1736 Aug 23 10:53 page__meta.html
+-rw-rw-r-- 1 ambj ambj   543 Aug 23 10:53 page__related.html
+-rw-rw-r-- 1 ambj ambj   354 Aug 23 10:53 page__taxonomy.html
+-rw-rw-r-- 1 ambj ambj  3480 Aug 23 10:53 paginator-v1.html
+-rw-rw-r-- 1 ambj ambj  3210 Aug 23 10:53 paginator-v2.html
+-rw-rw-r-- 1 ambj ambj   284 Aug 23 10:53 paginator.html
+-rw-rw-r-- 1 ambj ambj   977 Aug 23 10:53 post_pagination.html
+-rw-rw-r-- 1 ambj ambj   249 Aug 23 10:53 posts-category.html
+-rw-rw-r-- 1 ambj ambj   243 Aug 23 10:53 posts-tag.html
+-rw-rw-r-- 1 ambj ambj  1330 Aug 23 10:53 posts-taxonomy.html
+-rw-rw-r-- 1 ambj ambj   622 Aug 23 10:53 schema.html
+-rw-rw-r-- 1 ambj ambj  1034 Aug 23 10:53 scripts.html
+drwxrwxr-x 2 ambj ambj  4096 Aug 23 10:53 search
+-rw-rw-r-- 1 ambj ambj  6151 Aug 23 10:53 seo.html
+-rw-rw-r-- 1 ambj ambj     0 Aug 23 10:53 sidebar-custom.html
+-rw-rw-r-- 1 ambj ambj   880 Aug 23 10:53 sidebar.html
+-rw-rw-r-- 1 ambj ambj   564 Aug 23 10:53 skip-links.html
+-rw-rw-r-- 1 ambj ambj  2084 Aug 23 10:53 social-share.html
+-rw-rw-r-- 1 ambj ambj   841 Aug 23 10:53 tag-list.html
+-rw-rw-r-- 1 ambj ambj   368 Aug 23 10:53 toc
+-rw-rw-r-- 1 ambj ambj  9223 Aug 23 10:53 toc.html
+-rw-rw-r-- 1 ambj ambj  1474 Aug 23 10:53 video
+
+./_includes/analytics-providers:
+total 20
+-rw-rw-r-- 1 ambj ambj  78 Aug 23 10:53 custom.html
+-rw-rw-r-- 1 ambj ambj 444 Aug 23 10:53 google-gtag.html
+-rw-rw-r-- 1 ambj ambj 340 Aug 23 10:53 google-universal.html
+-rw-rw-r-- 1 ambj ambj 582 Aug 23 10:53 google.html
+-rw-rw-r-- 1 ambj ambj 423 Aug 23 10:53 swetrix.html
+
+./_includes/comments-providers:
+total 40
+-rw-rw-r-- 1 ambj ambj   76 Aug 23 10:53 custom.html
+-rw-rw-r-- 1 ambj ambj   76 Aug 23 10:53 custom_scripts.html
+-rw-rw-r-- 1 ambj ambj  855 Aug 23 10:53 discourse.html
+-rw-rw-r-- 1 ambj ambj  784 Aug 23 10:53 disqus.html
+-rw-rw-r-- 1 ambj ambj  426 Aug 23 10:53 facebook.html
+-rw-rw-r-- 1 ambj ambj 1573 Aug 23 10:53 giscus.html
+-rw-rw-r-- 1 ambj ambj  817 Aug 23 10:53 scripts.html
+-rw-rw-r-- 1 ambj ambj 1919 Aug 23 10:53 staticman.html
+-rw-rw-r-- 1 ambj ambj 1928 Aug 23 10:53 staticman_v2.html
+-rw-rw-r-- 1 ambj ambj  786 Aug 23 10:53 utterances.html
+
+./_includes/footer:
+total 4
+-rw-rw-r-- 1 ambj ambj 74 Aug 23 10:53 custom.html
+
+./_includes/head:
+total 4
+-rw-rw-r-- 1 ambj ambj 136 Aug 23 10:53 custom.html
+
+./_includes/search:
+total 16
+-rw-rw-r-- 1 ambj ambj 2842 Aug 23 10:53 algolia-search-scripts.html
+-rw-rw-r-- 1 ambj ambj  893 Aug 23 10:53 google-search-scripts.html
+-rw-rw-r-- 1 ambj ambj  479 Aug 23 10:53 lunr-search-scripts.html
+-rw-rw-r-- 1 ambj ambj 1431 Aug 23 10:53 search_form.html
+
+./_layouts:
+total 64
+-rw-rw-r-- 1 ambj ambj  959 Aug 23 10:53 archive-taxonomy.html
+-rw-rw-r-- 1 ambj ambj  851 Aug 23 10:53 archive.html
+-rw-rw-r-- 1 ambj ambj  198 Aug 23 10:53 categories.html
+-rw-rw-r-- 1 ambj ambj  334 Aug 23 10:53 category.html
+-rw-rw-r-- 1 ambj ambj  392 Aug 23 10:53 collection.html
+-rw-rw-r-- 1 ambj ambj 4537 Aug 23 10:53 compress.html
+-rw-rw-r-- 1 ambj ambj 1222 Aug 23 10:53 default.html
+-rw-rw-r-- 1 ambj ambj  598 Aug 23 10:53 home.html
+-rw-rw-r-- 1 ambj ambj 1186 Aug 23 10:53 posts.html
+-rw-rw-r-- 1 ambj ambj 1684 Aug 23 10:53 search.html
+-rw-rw-r-- 1 ambj ambj 4126 Aug 23 10:53 single.html
+-rw-rw-r-- 1 ambj ambj 1170 Aug 23 10:53 splash.html
+-rw-rw-r-- 1 ambj ambj  329 Aug 23 10:53 tag.html
+-rw-rw-r-- 1 ambj ambj  192 Aug 23 10:53 tags.html
+
+./_pages:
+total 64
+-rw-rw-r-- 1 ambj ambj 19946 Aug 23 10:53 README.md
+-rw-rw-r-- 1 ambj ambj  1044 Aug 24 19:08 contact.md
+-rw-rw-r-- 1 ambj ambj   351 Aug 24 19:08 design.md
+-rw-rw-r-- 1 ambj ambj  1251 Aug 24 19:08 getting-started.md
+-rw-rw-r-- 1 ambj ambj   625 Aug 24 19:08 headers.md
+-rw-rw-r-- 1 ambj ambj  2161 Aug 24 21:10 home.md
+-rw-rw-r-- 1 ambj ambj  2127 Aug 24 19:09 info.md
+-rw-rw-r-- 1 ambj ambj   912 Aug 24 20:32 inscricoes.md
+-rw-rw-r-- 1 ambj ambj  2633 Aug 24 20:24 programacao.md
+-rw-rw-r-- 1 ambj ambj   291 Aug 24 19:10 redirected_page.md
+-rw-rw-r-- 1 ambj ambj   395 Aug 24 19:10 roadmap.md
+-rw-rw-r-- 1 ambj ambj  2168 Aug 24 20:34 sobre.md
+
+./_sass:
+total 8
+drwxrwxr-x 4 ambj ambj 4096 Aug 23 10:53 minimal-mistakes
+-rw-rw-r-- 1 ambj ambj 1091 Aug 23 10:53 minimal-mistakes.scss
+
+./_sass/minimal-mistakes:
+total 136
+-rw-rw-r-- 1 ambj ambj   342 Aug 23 10:53 _animations.scss
+-rw-rw-r-- 1 ambj ambj  7279 Aug 23 10:53 _archive.scss
+-rw-rw-r-- 1 ambj ambj  4584 Aug 23 10:53 _base.scss
+-rw-rw-r-- 1 ambj ambj  2074 Aug 23 10:53 _buttons.scss
+-rw-rw-r-- 1 ambj ambj   313 Aug 23 10:53 _copyright.scss
+-rw-rw-r-- 1 ambj ambj  1442 Aug 23 10:53 _footer.scss
+-rw-rw-r-- 1 ambj ambj  5662 Aug 23 10:53 _forms.scss
+-rw-rw-r-- 1 ambj ambj  1593 Aug 23 10:53 _masthead.scss
+-rw-rw-r-- 1 ambj ambj  2033 Aug 23 10:53 _mixins.scss
+-rw-rw-r-- 1 ambj ambj 11647 Aug 23 10:53 _navigation.scss
+-rw-rw-r-- 1 ambj ambj  2251 Aug 23 10:53 _notices.scss
+-rw-rw-r-- 1 ambj ambj  9848 Aug 23 10:53 _page.scss
+-rw-rw-r-- 1 ambj ambj  3453 Aug 23 10:53 _print.scss
+-rw-rw-r-- 1 ambj ambj  3606 Aug 23 10:53 _reset.scss
+-rw-rw-r-- 1 ambj ambj  2196 Aug 23 10:53 _search.scss
+-rw-rw-r-- 1 ambj ambj  6210 Aug 23 10:53 _sidebar.scss
+-rw-rw-r-- 1 ambj ambj  4893 Aug 23 10:53 _syntax.scss
+-rw-rw-r-- 1 ambj ambj   685 Aug 23 10:53 _tables.scss
+-rw-rw-r-- 1 ambj ambj 11385 Aug 23 10:53 _utilities.scss
+-rw-rw-r-- 1 ambj ambj  7962 Aug 23 10:53 _variables.scss
+drwxrwxr-x 2 ambj ambj  4096 Aug 23 10:53 skins
+drwxrwxr-x 5 ambj ambj  4096 Aug 23 10:53 vendor
+
+./_sass/minimal-mistakes/skins:
+total 48
+-rw-rw-r-- 1 ambj ambj  745 Aug 23 10:53 _air.scss
+-rw-rw-r-- 1 ambj ambj 1449 Aug 23 10:53 _aqua.scss
+-rw-rw-r-- 1 ambj ambj 3284 Aug 23 10:53 _catppuccin_latte.scss
+-rw-rw-r-- 1 ambj ambj 2831 Aug 23 10:53 _catppuccin_mocha.scss
+-rw-rw-r-- 1 ambj ambj 1380 Aug 23 10:53 _contrast.scss
+-rw-rw-r-- 1 ambj ambj 1259 Aug 23 10:53 _dark.scss
+-rw-rw-r-- 1 ambj ambj  204 Aug 23 10:53 _default.scss
+-rw-rw-r-- 1 ambj ambj 1065 Aug 23 10:53 _dirt.scss
+-rw-rw-r-- 1 ambj ambj  777 Aug 23 10:53 _mint.scss
+-rw-rw-r-- 1 ambj ambj 1983 Aug 23 10:53 _neon.scss
+-rw-rw-r-- 1 ambj ambj 2049 Aug 23 10:53 _plum.scss
+-rw-rw-r-- 1 ambj ambj 1737 Aug 23 10:53 _sunrise.scss
+
+./_sass/minimal-mistakes/vendor:
+total 12
+drwxrwxr-x 3 ambj ambj 4096 Aug 23 10:53 breakpoint
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 magnific-popup
+drwxrwxr-x 4 ambj ambj 4096 Aug 23 10:53 susy
+
+./_sass/minimal-mistakes/vendor/breakpoint:
+total 44
+-rw-rw-r-- 1 ambj ambj 2554 Aug 23 10:53 _breakpoint.scss
+-rw-rw-r-- 1 ambj ambj 3143 Aug 23 10:53 _context.scss
+-rw-rw-r-- 1 ambj ambj 4311 Aug 23 10:53 _helpers.scss
+-rw-rw-r-- 1 ambj ambj 2771 Aug 23 10:53 _legacy-settings.scss
+-rw-rw-r-- 1 ambj ambj  340 Aug 23 10:53 _no-query.scss
+-rw-rw-r-- 1 ambj ambj 6795 Aug 23 10:53 _parsers.scss
+-rw-rw-r-- 1 ambj ambj 2884 Aug 23 10:53 _respond-to.scss
+-rw-rw-r-- 1 ambj ambj 1868 Aug 23 10:53 _settings.scss
+drwxrwxr-x 6 ambj ambj 4096 Aug 23 10:53 parsers
+
+./_sass/minimal-mistakes/vendor/breakpoint/parsers:
+total 36
+-rw-rw-r-- 1 ambj ambj 1081 Aug 23 10:53 _double.scss
+-rw-rw-r-- 1 ambj ambj 3931 Aug 23 10:53 _query.scss
+-rw-rw-r-- 1 ambj ambj  789 Aug 23 10:53 _resolution.scss
+-rw-rw-r-- 1 ambj ambj  707 Aug 23 10:53 _single.scss
+-rw-rw-r-- 1 ambj ambj  757 Aug 23 10:53 _triple.scss
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 double
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 resolution
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 single
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 triple
+
+./_sass/minimal-mistakes/vendor/breakpoint/parsers/double:
+total 12
+-rw-rw-r-- 1 ambj ambj 611 Aug 23 10:53 _default-pair.scss
+-rw-rw-r-- 1 ambj ambj 450 Aug 23 10:53 _default.scss
+-rw-rw-r-- 1 ambj ambj 568 Aug 23 10:53 _double-string.scss
+
+./_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution:
+total 4
+-rw-rw-r-- 1 ambj ambj 1651 Aug 23 10:53 _resolution.scss
+
+./_sass/minimal-mistakes/vendor/breakpoint/parsers/single:
+total 4
+-rw-rw-r-- 1 ambj ambj 386 Aug 23 10:53 _default.scss
+
+./_sass/minimal-mistakes/vendor/breakpoint/parsers/triple:
+total 4
+-rw-rw-r-- 1 ambj ambj 555 Aug 23 10:53 _default.scss
+
+./_sass/minimal-mistakes/vendor/magnific-popup:
+total 20
+-rw-rw-r-- 1 ambj ambj 13392 Aug 23 10:53 _magnific-popup.scss
+-rw-rw-r-- 1 ambj ambj  2839 Aug 23 10:53 _settings.scss
+
+./_sass/minimal-mistakes/vendor/susy:
+total 20
+-rw-rw-r-- 1 ambj ambj   32 Aug 23 10:53 _su.scss
+-rw-rw-r-- 1 ambj ambj  260 Aug 23 10:53 _susy-prefix.scss
+-rw-rw-r-- 1 ambj ambj   93 Aug 23 10:53 _susy.scss
+drwxrwxr-x 3 ambj ambj 4096 Aug 23 10:53 plugins
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 susy
+
+./_sass/minimal-mistakes/vendor/susy/plugins:
+total 8
+-rw-rw-r-- 1 ambj ambj  107 Aug 23 10:53 _svg-grid.scss
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 svg-grid
+
+./_sass/minimal-mistakes/vendor/susy/plugins/svg-grid:
+total 24
+-rw-rw-r-- 1 ambj ambj  140 Aug 23 10:53 _prefix.scss
+-rw-rw-r-- 1 ambj ambj 3129 Aug 23 10:53 _svg-api.scss
+-rw-rw-r-- 1 ambj ambj 1436 Aug 23 10:53 _svg-grid-math.scss
+-rw-rw-r-- 1 ambj ambj  407 Aug 23 10:53 _svg-settings.scss
+-rw-rw-r-- 1 ambj ambj  325 Aug 23 10:53 _svg-unprefix.scss
+-rw-rw-r-- 1 ambj ambj 3048 Aug 23 10:53 _svg-utilities.scss
+
+./_sass/minimal-mistakes/vendor/susy/susy:
+total 76
+-rw-rw-r-- 1 ambj ambj 10046 Aug 23 10:53 _api.scss
+-rw-rw-r-- 1 ambj ambj  7053 Aug 23 10:53 _normalize.scss
+-rw-rw-r-- 1 ambj ambj  4532 Aug 23 10:53 _parse.scss
+-rw-rw-r-- 1 ambj ambj 10308 Aug 23 10:53 _settings.scss
+-rw-rw-r-- 1 ambj ambj 11497 Aug 23 10:53 _su-math.scss
+-rw-rw-r-- 1 ambj ambj  4939 Aug 23 10:53 _su-validate.scss
+-rw-rw-r-- 1 ambj ambj  6157 Aug 23 10:53 _syntax-helpers.scss
+-rw-rw-r-- 1 ambj ambj   890 Aug 23 10:53 _unprefix.scss
+-rw-rw-r-- 1 ambj ambj  3817 Aug 23 10:53 _utilities.scss
+
+./_site:
+total 76
+drwxrwxr-x 3 ambj ambj 4096 Aug 24 21:28 _pages
+drwxrwxr-x 5 ambj ambj 4096 Aug 24 17:17 assets
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 19:11 contact
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 19:11 design
+-rw-rw-r-- 1 ambj ambj  572 Aug 24 21:28 feed.xml
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 19:11 getting-started
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 19:11 headers
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 21:28 images
+-rw-rw-r-- 1 ambj ambj 6798 Aug 24 21:28 index.html
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 19:11 info
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 19:11 inscricoes
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 19:11 programacao
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 19:11 redirect-page
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 19:11 roadmap
+-rw-rw-r-- 1 ambj ambj   43 Aug 24 21:28 robots.txt
+-rw-rw-r-- 1 ambj ambj  998 Aug 24 21:28 sitemap.xml
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 20:34 sobre
+-rw-rw-r-- 1 ambj ambj 3768 Aug 23 10:53 staticman.yml
+
+./_site/_pages:
+total 56
+drwxrwxr-x 2 ambj ambj  4096 Aug 24 19:32 README
+-rw-rw-r-- 1 ambj ambj 19946 Aug 23 10:53 README.md
+-rw-rw-r-- 1 ambj ambj 29963 Aug 24 21:28 index.html
+
+./_site/_pages/README:
+total 32
+-rw-rw-r-- 1 ambj ambj 29984 Aug 24 21:28 index.html
+
+./_site/assets:
+total 12
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 19:45 css
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 21:28 images
+drwxrwxr-x 5 ambj ambj 4096 Aug 24 21:28 js
+
+./_site/assets/css:
+total 72
+-rw-rw-r-- 1 ambj ambj 70464 Aug 24 21:28 main.css
+
+./_site/assets/images:
+total 3408
+-rw-rw-r-- 1 ambj ambj  896571 Aug 24 17:28 header.jpg
+-rw-rw-r-- 1 ambj ambj   20376 Aug 24 17:55 logo-sas-color.png
+-rw-r--r-- 1 ambj ambj   18326 Aug 24 17:51 logo-sas-color.svg
+-rw-rw-r-- 1 ambj ambj   21623 Aug 24 17:52 logo.png
+-rw-rw-r-- 1 ambj ambj  896571 Aug 24 17:24 morro-careca-sas.jpg
+-rw-rw-r-- 1 ambj ambj 1626897 Aug 24 17:17 morro-careca.jpg
+
+./_site/assets/js:
+total 348
+-rw-rw-r-- 1 ambj ambj   7891 Aug 24 21:28 _main.js
+drwxrwxr-x 2 ambj ambj   4096 Aug 24 21:28 lunr
+-rw-rw-r-- 1 ambj ambj 124030 Aug 23 10:53 main.min.js
+-rw-rw-r-- 1 ambj ambj 207651 Aug 23 10:53 main.min.js.map
+drwxrwxr-x 2 ambj ambj   4096 Aug 24 21:28 plugins
+drwxrwxr-x 3 ambj ambj   4096 Aug 24 19:45 vendor
+
+./_site/assets/js/lunr:
+total 156
+-rw-rw-r-- 1 ambj ambj  2504 Aug 24 21:28 lunr-en.js
+-rw-rw-r-- 1 ambj ambj 15661 Aug 24 21:28 lunr-gr.js
+-rw-rw-r-- 1 ambj ambj    15 Aug 24 21:28 lunr-store.js
+-rw-rw-r-- 1 ambj ambj 99804 Aug 23 10:53 lunr.js
+-rw-rw-r-- 1 ambj ambj 29510 Aug 23 10:53 lunr.min.js
+
+./_site/assets/js/plugins:
+total 104
+-rw-rw-r-- 1 ambj ambj 11364 Aug 24 21:28 gumshoe.js
+-rw-rw-r-- 1 ambj ambj 10254 Aug 24 21:28 jquery.ba-throttle-debounce.js
+-rw-rw-r-- 1 ambj ambj  3220 Aug 24 21:28 jquery.fitvids.js
+-rw-rw-r-- 1 ambj ambj  5215 Aug 24 21:28 jquery.greedy-navigation.js
+-rw-rw-r-- 1 ambj ambj 48977 Aug 24 21:28 jquery.magnific-popup.js
+-rw-rw-r-- 1 ambj ambj 19585 Aug 24 21:28 smooth-scroll.js
+
+./_site/assets/js/vendor:
+total 4
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 21:28 jquery
+
+./_site/assets/js/vendor/jquery:
+total 284
+-rw-rw-r-- 1 ambj ambj 288580 Aug 24 21:28 jquery-3.6.0.js
+
+./_site/contact:
+total 8
+-rw-rw-r-- 1 ambj ambj 6384 Aug 24 21:28 index.html
+
+./_site/design:
+total 8
+-rw-rw-r-- 1 ambj ambj 5301 Aug 24 21:28 index.html
+
+./_site/getting-started:
+total 8
+-rw-rw-r-- 1 ambj ambj 6917 Aug 24 21:28 index.html
+
+./_site/headers:
+total 8
+-rw-rw-r-- 1 ambj ambj 5300 Aug 24 21:28 index.html
+
+./_site/images:
+total 2104
+-rw-rw-r-- 1 ambj ambj 739911 Aug 24 20:25 inscricao-header.png
+-rw-rw-r-- 1 ambj ambj 896571 Aug 24 20:33 morro-careca-sas.jpg
+-rw-rw-r-- 1 ambj ambj 513398 Aug 24 20:23 programacao-header.png
+
+./_site/info:
+total 8
+-rw-rw-r-- 1 ambj ambj 7272 Aug 24 21:28 index.html
+
+./_site/inscricoes:
+total 8
+-rw-rw-r-- 1 ambj ambj 6690 Aug 24 21:28 index.html
+
+./_site/programacao:
+total 12
+-rw-rw-r-- 1 ambj ambj 9165 Aug 24 21:28 index.html
+
+./_site/redirect-page:
+total 8
+-rw-rw-r-- 1 ambj ambj 5529 Aug 24 21:28 index.html
+
+./_site/roadmap:
+total 8
+-rw-rw-r-- 1 ambj ambj 5324 Aug 24 21:28 index.html
+
+./_site/sobre:
+total 12
+-rw-rw-r-- 1 ambj ambj 8271 Aug 24 21:28 index.html
+
+./assets:
+total 12
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 css
+drwxrwxr-x 2 ambj ambj 4096 Aug 24 17:55 images
+drwxrwxr-x 5 ambj ambj 4096 Aug 23 10:53 js
+
+./assets/css:
+total 4
+-rw-rw-r-- 1 ambj ambj 252 Aug 23 10:53 main.scss
+
+./assets/images:
+total 3408
+-rw-rw-r-- 1 ambj ambj  896571 Aug 24 17:28 header.jpg
+-rw-rw-r-- 1 ambj ambj   20376 Aug 24 17:55 logo-sas-color.png
+-rw-r--r-- 1 ambj ambj   18326 Aug 24 17:51 logo-sas-color.svg
+-rw-rw-r-- 1 ambj ambj   21623 Aug 24 17:52 logo.png
+-rw-rw-r-- 1 ambj ambj  896571 Aug 24 17:24 morro-careca-sas.jpg
+-rw-rw-r-- 1 ambj ambj 1626897 Aug 24 17:17 morro-careca.jpg
+
+./assets/js:
+total 348
+-rw-rw-r-- 1 ambj ambj   7891 Aug 23 10:53 _main.js
+drwxrwxr-x 2 ambj ambj   4096 Aug 23 10:53 lunr
+-rw-rw-r-- 1 ambj ambj 124030 Aug 23 10:53 main.min.js
+-rw-rw-r-- 1 ambj ambj 207651 Aug 23 10:53 main.min.js.map
+drwxrwxr-x 2 ambj ambj   4096 Aug 23 10:53 plugins
+drwxrwxr-x 3 ambj ambj   4096 Aug 23 10:53 vendor
+
+./assets/js/lunr:
+total 156
+-rw-rw-r-- 1 ambj ambj  2579 Aug 23 10:53 lunr-en.js
+-rw-rw-r-- 1 ambj ambj 15736 Aug 23 10:53 lunr-gr.js
+-rw-rw-r-- 1 ambj ambj  3044 Aug 23 10:53 lunr-store.js
+-rw-rw-r-- 1 ambj ambj 99804 Aug 23 10:53 lunr.js
+-rw-rw-r-- 1 ambj ambj 29510 Aug 23 10:53 lunr.min.js
+
+./assets/js/plugins:
+total 104
+-rw-rw-r-- 1 ambj ambj 11364 Aug 23 10:53 gumshoe.js
+-rw-rw-r-- 1 ambj ambj 10254 Aug 23 10:53 jquery.ba-throttle-debounce.js
+-rw-rw-r-- 1 ambj ambj  3220 Aug 23 10:53 jquery.fitvids.js
+-rw-rw-r-- 1 ambj ambj  5215 Aug 23 10:53 jquery.greedy-navigation.js
+-rw-rw-r-- 1 ambj ambj 48977 Aug 23 10:53 jquery.magnific-popup.js
+-rw-rw-r-- 1 ambj ambj 19585 Aug 23 10:53 smooth-scroll.js
+
+./assets/js/vendor:
+total 4
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 jquery
+
+./assets/js/vendor/jquery:
+total 284
+-rw-rw-r-- 1 ambj ambj 288580 Aug 23 10:53 jquery-3.6.0.js
+
+./images:
+total 2104
+-rw-rw-r-- 1 ambj ambj 739911 Aug 24 20:25 inscricao-header.png
+-rw-rw-r-- 1 ambj ambj 896571 Aug 24 20:33 morro-careca-sas.jpg
+-rw-rw-r-- 1 ambj ambj 513398 Aug 24 20:23 programacao-header.png
+
+./test:
+total 48
+-rw-rw-r-- 1 ambj ambj  227 Aug 23 10:53 Gemfile
+-rw-rw-r-- 1 ambj ambj 8484 Aug 23 10:53 _config.yml
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 _data
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 _pages
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 _pets
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 _portfolio
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 _posts
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 _recipes
+drwxrwxr-x 3 ambj ambj 4096 Aug 23 10:53 assets
+-rw-rw-r-- 1 ambj ambj   98 Aug 23 10:53 index.html
+
+./test/_data:
+total 8
+-rw-rw-r-- 1 ambj ambj  859 Aug 23 10:53 authors.yml
+-rw-rw-r-- 1 ambj ambj 1630 Aug 23 10:53 navigation.yml
+
+./test/_pages:
+total 120
+-rw-rw-r-- 1 ambj ambj   191 Aug 23 10:53 404.md
+-rw-rw-r-- 1 ambj ambj  5540 Aug 23 10:53 archive-layout-with-content.md
+-rw-rw-r-- 1 ambj ambj   137 Aug 23 10:53 category-archive-grid.md
+-rw-rw-r-- 1 ambj ambj    99 Aug 23 10:53 category-archive.md
+-rw-rw-r-- 1 ambj ambj  1051 Aug 23 10:53 collection-archive-grid.html
+-rw-rw-r-- 1 ambj ambj   769 Aug 23 10:53 collection-archive.html
+-rw-rw-r-- 1 ambj ambj   185 Aug 23 10:53 edge-case-grid.md
+-rw-rw-r-- 1 ambj ambj   147 Aug 23 10:53 edge-case.md
+-rw-rw-r-- 1 ambj ambj 11696 Aug 23 10:53 lorem-ipsum.md
+-rw-rw-r-- 1 ambj ambj   157 Aug 23 10:53 markup-grid.md
+-rw-rw-r-- 1 ambj ambj   119 Aug 23 10:53 markup.md
+-rw-rw-r-- 1 ambj ambj   354 Aug 23 10:53 page-a.md
+-rw-rw-r-- 1 ambj ambj   400 Aug 23 10:53 page-archive-grid.html
+-rw-rw-r-- 1 ambj ambj   173 Aug 23 10:53 page-archive.html
+-rw-rw-r-- 1 ambj ambj    90 Aug 23 10:53 page-b.md
+-rw-rw-r-- 1 ambj ambj   182 Aug 23 10:53 portfolio-archive.md
+-rw-rw-r-- 1 ambj ambj  2207 Aug 23 10:53 post-archive-feature-rows.html
+-rw-rw-r-- 1 ambj ambj   170 Aug 23 10:53 recipes-archive.md
+-rw-rw-r-- 1 ambj ambj   908 Aug 23 10:53 sample-page.md
+-rw-rw-r-- 1 ambj ambj    56 Aug 23 10:53 search.md
+-rw-rw-r-- 1 ambj ambj   995 Aug 23 10:53 sitemap.md
+-rw-rw-r-- 1 ambj ambj  2789 Aug 23 10:53 splash-page.md
+-rw-rw-r-- 1 ambj ambj   120 Aug 23 10:53 tag-archive-grid.md
+-rw-rw-r-- 1 ambj ambj    82 Aug 23 10:53 tag-archive.md
+-rw-rw-r-- 1 ambj ambj  3319 Aug 23 10:53 terms.md
+-rw-rw-r-- 1 ambj ambj   130 Aug 23 10:53 year-archive-grid.md
+-rw-rw-r-- 1 ambj ambj    92 Aug 23 10:53 year-archive.md
+
+./test/_pets:
+total 8
+-rw-rw-r-- 1 ambj ambj 709 Aug 23 10:53 lhasa-apso.md
+-rw-rw-r-- 1 ambj ambj 828 Aug 23 10:53 tabby.md
+
+./test/_portfolio:
+total 16
+-rw-rw-r-- 1 ambj ambj 2252 Aug 23 10:53 baz-boom-identity.md
+-rw-rw-r-- 1 ambj ambj 2254 Aug 23 10:53 fizz-bang-identity.md
+-rw-rw-r-- 1 ambj ambj 2235 Aug 23 10:53 foo-bar-website.md
+-rw-rw-r-- 1 ambj ambj 2258 Aug 23 10:53 ginger-gulp-identity.md
+
+./test/_posts:
+total 320
+-rw-rw-r-- 1 ambj ambj  1206 Aug 23 10:53 2009-05-15-edge-case-nested-and-mixed-lists.md
+-rw-rw-r-- 1 ambj ambj   592 Aug 23 10:53 2009-06-01-edge-case-many-tags.md
+-rw-rw-r-- 1 ambj ambj   310 Aug 23 10:53 2009-07-02-edge-case-many-categories.md
+-rw-rw-r-- 1 ambj ambj   113 Aug 23 10:53 2009-08-06-edge-case-no-body-content.md
+-rw-rw-r-- 1 ambj ambj   189 Aug 23 10:53 2009-09-05-edge-case-no-yaml-title.md
+-rw-rw-r-- 1 ambj ambj   317 Aug 23 10:53 2009-10-05-edge-case-multiline-excerpt.md
+-rw-rw-r-- 1 ambj ambj   589 Aug 23 10:53 2009-10-05-edge-case-title-should-not-overflow-the-content-area.md
+-rw-rw-r-- 1 ambj ambj   669 Aug 23 10:53 2009-10-05-edge-case-very-long-title.md
+-rw-rw-r-- 1 ambj ambj   798 Aug 23 10:53 2010-01-07-post-modified.md
+-rw-rw-r-- 1 ambj ambj  4775 Aug 23 10:53 2010-01-07-post-standard.md
+-rw-rw-r-- 1 ambj ambj  3019 Aug 23 10:53 2010-01-08-post-chat.md
+-rw-rw-r-- 1 ambj ambj  2757 Aug 23 10:53 2010-02-05-post-notice.md
+-rw-rw-r-- 1 ambj ambj   292 Aug 23 10:53 2010-02-05-post-quote.md
+-rw-rw-r-- 1 ambj ambj   348 Aug 23 10:53 2010-03-07-post-link.md
+-rw-rw-r-- 1 ambj ambj   262 Aug 23 10:53 2010-06-02-post-video-youtube.md
+-rw-rw-r-- 1 ambj ambj   468 Aug 23 10:53 2010-08-05-post-header-image-og-override.md
+-rw-rw-r-- 1 ambj ambj   753 Aug 23 10:53 2010-08-05-post-header-overlay-image-og-override.md
+-rw-rw-r-- 1 ambj ambj   202 Aug 23 10:53 2010-08-05-post-image-linked.md
+-rw-rw-r-- 1 ambj ambj  1236 Aug 23 10:53 2010-08-05-post-image-standard.md
+-rw-rw-r-- 1 ambj ambj   472 Aug 23 10:53 2010-08-05-post-teaser-image-og-override.md
+-rw-rw-r-- 1 ambj ambj   604 Aug 23 10:53 2010-08-06-post-image-linked-caption.md
+-rw-rw-r-- 1 ambj ambj   346 Aug 23 10:53 2010-08-07-post-image-caption.md
+-rw-rw-r-- 1 ambj ambj  5630 Aug 23 10:53 2010-09-09-post-gallery.md
+-rw-rw-r-- 1 ambj ambj   694 Aug 23 10:53 2010-09-10-post-twitter-embeds.md
+-rw-rw-r-- 1 ambj ambj   210 Aug 23 10:53 2010-10-25-post-future-date.md
+-rw-rw-r-- 1 ambj ambj   201 Aug 23 10:53 2012-01-02-layout-comments-disabled.md
+-rw-rw-r-- 1 ambj ambj   163 Aug 23 10:53 2012-01-02-layout-comments.md
+-rw-rw-r-- 1 ambj ambj  3823 Aug 23 10:53 2012-01-02-layout-post-date-disabled.md
+-rw-rw-r-- 1 ambj ambj  3817 Aug 23 10:53 2012-01-02-layout-post-date.md
+-rw-rw-r-- 1 ambj ambj  3845 Aug 23 10:53 2012-01-02-layout-read-time-disabled.md
+-rw-rw-r-- 1 ambj ambj  3806 Aug 23 10:53 2012-01-02-layout-read-time.md
+-rw-rw-r-- 1 ambj ambj   216 Aug 23 10:53 2012-01-02-layout-related-posts-disabled.md
+-rw-rw-r-- 1 ambj ambj   174 Aug 23 10:53 2012-01-02-layout-related-posts.md
+-rw-rw-r-- 1 ambj ambj   217 Aug 23 10:53 2012-01-02-layout-sharing-disabled.md
+-rw-rw-r-- 1 ambj ambj   182 Aug 23 10:53 2012-01-02-layout-sharing.md
+-rw-rw-r-- 1 ambj ambj   429 Aug 23 10:53 2012-01-03-layout-read-time-comments-sharing-related-posts-disabled.md
+-rw-rw-r-- 1 ambj ambj 13242 Aug 23 10:53 2012-01-03-layout-table-of-contents-include-post.md
+-rw-rw-r-- 1 ambj ambj 13142 Aug 23 10:53 2012-01-03-layout-table-of-contents-indent-post.md
+-rw-rw-r-- 1 ambj ambj  2905 Aug 23 10:53 2012-01-03-layout-table-of-contents-post.md
+-rw-rw-r-- 1 ambj ambj  2650 Aug 23 10:53 2012-01-03-layout-table-of-contents-sticky.md
+-rw-rw-r-- 1 ambj ambj   500 Aug 23 10:53 2012-03-14-layout-code-excerpt-generated.md
+-rw-rw-r-- 1 ambj ambj   450 Aug 23 10:53 2012-03-14-layout-excerpt-defined.md
+-rw-rw-r-- 1 ambj ambj   394 Aug 23 10:53 2012-03-14-layout-excerpt-generated.md
+-rw-rw-r-- 1 ambj ambj  1724 Aug 23 10:53 2012-03-15-layout-author-override.md
+-rw-rw-r-- 1 ambj ambj   228 Aug 23 10:53 2012-03-15-layout-author-sidebar-disabled.md
+-rw-rw-r-- 1 ambj ambj   359 Aug 23 10:53 2012-03-15-layout-header-image-external.md
+-rw-rw-r-- 1 ambj ambj   443 Aug 23 10:53 2012-03-15-layout-header-image-horizontal.md
+-rw-rw-r-- 1 ambj ambj  5745 Aug 23 10:53 2012-03-15-layout-header-image-text-readability.md
+-rw-rw-r-- 1 ambj ambj   440 Aug 23 10:53 2012-03-15-layout-header-image-vertical.md
+-rw-rw-r-- 1 ambj ambj   363 Aug 23 10:53 2012-03-15-layout-header-overlay-color.md
+-rw-rw-r-- 1 ambj ambj   865 Aug 23 10:53 2012-03-15-layout-header-overlay-image-tagline.md
+-rw-rw-r-- 1 ambj ambj  1596 Aug 23 10:53 2012-03-15-layout-header-overlay-image.md
+-rw-rw-r-- 1 ambj ambj   343 Aug 23 10:53 2012-03-15-layout-more-tag.md
+-rw-rw-r-- 1 ambj ambj   604 Aug 23 10:53 2012-03-15-layout-sidebar-custom.md
+-rw-rw-r-- 1 ambj ambj  1317 Aug 23 10:53 2012-03-15-layout-sidebar-nav-list.md
+-rw-rw-r-- 1 ambj ambj  5790 Aug 23 10:53 2012-05-22-markup-text-readability-wide-page.md
+-rw-rw-r-- 1 ambj ambj  5619 Aug 23 10:53 2012-05-22-markup-text-readability.md
+-rw-rw-r-- 1 ambj ambj   287 Aug 23 10:53 2013-01-05-markup-title-with-markup.md
+-rw-rw-r-- 1 ambj ambj  3784 Aug 23 10:53 2013-01-05-markup-title-with-special-characters.md
+-rw-rw-r-- 1 ambj ambj  2162 Aug 23 10:53 2013-01-09-markup-text-alignment.md
+-rw-rw-r-- 1 ambj ambj  4725 Aug 23 10:53 2013-01-10-markup-image-alignment.md
+-rw-rw-r-- 1 ambj ambj  6705 Aug 23 10:53 2013-01-11-markup-html-tags-and-formatting.md
+-rw-rw-r-- 1 ambj ambj  2728 Aug 23 10:53 2013-05-22-markup-more-images.md
+-rw-rw-r-- 1 ambj ambj  3849 Aug 23 10:53 2013-08-16-markup-syntax-highlighting.md
+-rw-rw-r-- 1 ambj ambj  1296 Aug 23 10:53 2016-02-24-welcome-to-jekyll.md
+-rw-rw-r-- 1 ambj ambj  1418 Aug 23 10:53 2017-01-23-layout-header-video.md
+-rw-rw-r-- 1 ambj ambj   841 Aug 23 10:53 2017-11-28-post-exclude-search.md
+
+./test/_recipes:
+total 12
+-rw-rw-r-- 1 ambj ambj 1420 Aug 23 10:53 chocolate-chip-cookies.md
+-rw-rw-r-- 1 ambj ambj 1085 Aug 23 10:53 oatmeal-cookies.md
+-rw-rw-r-- 1 ambj ambj  930 Aug 23 10:53 peanut-butter-cookies.md
+
+./test/assets:
+total 4
+drwxrwxr-x 2 ambj ambj 4096 Aug 23 10:53 images
+
+./test/assets/images:
+total 9540
+-rw-rw-r-- 1 ambj ambj   14037 Aug 23 10:53 3953273590_704e3899d5_m.jpg
+-rw-rw-r-- 1 ambj ambj    1662 Aug 23 10:53 500x300.png
+-rw-rw-r-- 1 ambj ambj    1464 Aug 23 10:53 apple-touch-icon.png
+-rw-rw-r-- 1 ambj ambj    1806 Aug 23 10:53 bio-photo-2.jpg
+-rw-rw-r-- 1 ambj ambj    1661 Aug 23 10:53 bio-photo.jpg
+-rw-rw-r-- 1 ambj ambj   74978 Aug 23 10:53 facebook-share-example.jpg
+-rw-rw-r-- 1 ambj ambj   75014 Aug 23 10:53 foo-bar-identity-th.jpg
+-rw-rw-r-- 1 ambj ambj   61076 Aug 23 10:53 foo-bar-identity.jpg
+-rw-rw-r-- 1 ambj ambj   35514 Aug 23 10:53 image-alignment-1200x4002.jpg
+-rw-rw-r-- 1 ambj ambj    2844 Aug 23 10:53 image-alignment-150x150.jpg
+-rw-rw-r-- 1 ambj ambj    6446 Aug 23 10:53 image-alignment-300x200.jpg
+-rw-rw-r-- 1 ambj ambj    9082 Aug 23 10:53 image-alignment-580x300.jpg
+-rw-rw-r-- 1 ambj ambj   93588 Aug 23 10:53 markup-syntax-highlighting-teaser.jpg
+-rw-rw-r-- 1 ambj ambj  110665 Aug 23 10:53 mm-archive-grid-view-example.jpg
+-rw-rw-r-- 1 ambj ambj   16893 Aug 23 10:53 mm-author-profile-reddit-color.png
+-rw-rw-r-- 1 ambj ambj   24002 Aug 23 10:53 mm-author-profile-reddit-gs.png
+-rw-rw-r-- 1 ambj ambj  130748 Aug 23 10:53 mm-author-sidebar-example.jpg
+-rw-rw-r-- 1 ambj ambj   47649 Aug 23 10:53 mm-breadcrumbs-example.jpg
+-rw-rw-r-- 1 ambj ambj  210879 Aug 23 10:53 mm-browser-mockups.png
+-rw-rw-r-- 1 ambj ambj   78255 Aug 23 10:53 mm-bundle-install.gif
+-rw-rw-r-- 1 ambj ambj   54015 Aug 23 10:53 mm-custom-sidebar-example.jpg
+-rw-rw-r-- 1 ambj ambj   51465 Aug 23 10:53 mm-custom-sidebar-nav.jpg
+-rw-rw-r-- 1 ambj ambj   12547 Aug 23 10:53 mm-customizable-feature.png
+-rw-rw-r-- 1 ambj ambj   16852 Aug 23 10:53 mm-free-feature.png
+-rw-rw-r-- 1 ambj ambj   49321 Aug 23 10:53 mm-gh-pages.gif
+-rw-rw-r-- 1 ambj ambj   59515 Aug 23 10:53 mm-github-copy-repo-url.jpg
+-rw-rw-r-- 1 ambj ambj 1194924 Aug 23 10:53 mm-github-edit-config.gif
+-rw-rw-r-- 1 ambj ambj   33462 Aug 23 10:53 mm-header-overlay-black-filter.jpg
+-rw-rw-r-- 1 ambj ambj   40863 Aug 23 10:53 mm-header-overlay-red-filter.jpg
+-rw-rw-r-- 1 ambj ambj   31487 Aug 23 10:53 mm-home-page-feature.jpg
+-rw-rw-r-- 1 ambj ambj   48921 Aug 23 10:53 mm-home-post-pagination-example.jpg
+-rw-rw-r-- 1 ambj ambj   31010 Aug 23 10:53 mm-layout-archive-taxonomy.png
+-rw-rw-r-- 1 ambj ambj   35579 Aug 23 10:53 mm-layout-archive.png
+-rw-rw-r-- 1 ambj ambj  124853 Aug 23 10:53 mm-layout-examples.png
+-rw-rw-r-- 1 ambj ambj  110610 Aug 23 10:53 mm-layout-single-header.png
+-rw-rw-r-- 1 ambj ambj  189813 Aug 23 10:53 mm-layout-single-meta.png
+-rw-rw-r-- 1 ambj ambj  266317 Aug 23 10:53 mm-layout-single.png
+-rw-rw-r-- 1 ambj ambj   95286 Aug 23 10:53 mm-layout-splash.png
+-rw-rw-r-- 1 ambj ambj   76275 Aug 23 10:53 mm-paragraph-indent-example.jpg
+-rw-rw-r-- 1 ambj ambj  141578 Aug 23 10:53 mm-portfolio-collection-example.jpg
+-rw-rw-r-- 1 ambj ambj 3204605 Aug 23 10:53 mm-priority-plus-masthead.gif
+-rw-rw-r-- 1 ambj ambj   29668 Aug 23 10:53 mm-read-time-example.jpg
+-rw-rw-r-- 1 ambj ambj   10565 Aug 23 10:53 mm-responsive-feature.png
+-rw-rw-r-- 1 ambj ambj  141145 Aug 23 10:53 mm-single-header-example.jpg
+-rw-rw-r-- 1 ambj ambj   45722 Aug 23 10:53 mm-single-header-overlay-example.jpg
+-rw-rw-r-- 1 ambj ambj   23917 Aug 23 10:53 mm-single-header-overlay-fill-example.jpg
+-rw-rw-r-- 1 ambj ambj   21378 Aug 23 10:53 mm-social-share-links-default.png
+-rw-rw-r-- 1 ambj ambj   20782 Aug 23 10:53 mm-social-share-links-reddit-color.png
+-rw-rw-r-- 1 ambj ambj   20976 Aug 23 10:53 mm-social-share-links-reddit-gs.png
+-rw-rw-r-- 1 ambj ambj   56728 Aug 23 10:53 mm-staticman-pr-webhook.jpg
+-rw-rw-r-- 1 ambj ambj   76447 Aug 23 10:53 mm-susy-grid-overlay.jpg
+-rw-rw-r-- 1 ambj ambj   87378 Aug 23 10:53 mm-teaser-images-example.jpg
+-rw-rw-r-- 1 ambj ambj   22684 Aug 23 10:53 mm-theme-fork-repo.png
+-rw-rw-r-- 1 ambj ambj   31087 Aug 23 10:53 mm-theme-post-600.jpg
+-rw-rw-r-- 1 ambj ambj   74410 Aug 23 10:53 mm-theme-post-750.jpg
+-rw-rw-r-- 1 ambj ambj   79940 Aug 23 10:53 mm-toc-helper-example.jpg
+-rw-rw-r-- 1 ambj ambj   79618 Aug 23 10:53 mm-twitter-card-summary-image.jpg
+-rw-rw-r-- 1 ambj ambj  105376 Aug 23 10:53 mm-twitter-card-summary-large.jpg
+-rw-rw-r-- 1 ambj ambj   63677 Aug 23 10:53 mm-ui-text-labels.jpg
+-rw-rw-r-- 1 ambj ambj    8473 Aug 23 10:53 page-header-image.png
+-rw-rw-r-- 1 ambj ambj    8229 Aug 23 10:53 page-header-og-image.png
+-rw-rw-r-- 1 ambj ambj    9407 Aug 23 10:53 page-header-overlay-image.png
+-rw-rw-r-- 1 ambj ambj    1953 Aug 23 10:53 page-header-teaser.png
+-rw-rw-r-- 1 ambj ambj   32911 Aug 23 10:53 paragraph-indent.png
+-rw-rw-r-- 1 ambj ambj   33539 Aug 23 10:53 paragraph-no-indent.png
+-rw-rw-r-- 1 ambj ambj    1981 Aug 23 10:53 safari-pinned-tab.svg
+-rw-rw-r-- 1 ambj ambj    9939 Aug 23 10:53 unsplash-gallery-image-1-th.jpg
+-rw-rw-r-- 1 ambj ambj   46235 Aug 23 10:53 unsplash-gallery-image-1.jpg
+-rw-rw-r-- 1 ambj ambj   28664 Aug 23 10:53 unsplash-gallery-image-2-th.jpg
+-rw-rw-r-- 1 ambj ambj  135803 Aug 23 10:53 unsplash-gallery-image-2.jpg
+-rw-rw-r-- 1 ambj ambj   47560 Aug 23 10:53 unsplash-gallery-image-3-th.jpg
+-rw-rw-r-- 1 ambj ambj  239277 Aug 23 10:53 unsplash-gallery-image-3.jpg
+-rw-rw-r-- 1 ambj ambj   17908 Aug 23 10:53 unsplash-gallery-image-4-th.jpg
+-rw-rw-r-- 1 ambj ambj  110478 Aug 23 10:53 unsplash-gallery-image-4.jpg
+-rw-rw-r-- 1 ambj ambj   53685 Aug 23 10:53 unsplash-image-1.jpg
+-rw-rw-r-- 1 ambj ambj   69413 Aug 23 10:53 unsplash-image-10.jpg
+-rw-rw-r-- 1 ambj ambj   90279 Aug 23 10:53 unsplash-image-11.jpg
+-rw-rw-r-- 1 ambj ambj  117741 Aug 23 10:53 unsplash-image-2.jpg
+-rw-rw-r-- 1 ambj ambj   66594 Aug 23 10:53 unsplash-image-3.jpg
+-rw-rw-r-- 1 ambj ambj  158263 Aug 23 10:53 unsplash-image-4.jpg
+-rw-rw-r-- 1 ambj ambj   26645 Aug 23 10:53 unsplash-image-5.jpg
+-rw-rw-r-- 1 ambj ambj  192223 Aug 23 10:53 unsplash-image-6.jpg
+-rw-rw-r-- 1 ambj ambj   38801 Aug 23 10:53 unsplash-image-7.jpg
+-rw-rw-r-- 1 ambj ambj  110788 Aug 23 10:53 unsplash-image-8.jpg
+-rw-rw-r-- 1 ambj ambj   59729 Aug 23 10:53 unsplash-image-9.jpg

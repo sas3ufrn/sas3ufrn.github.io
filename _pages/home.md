@@ -3,7 +3,7 @@ layout: splash
 header:
   overlay_image: /images/morro-careca.jpg
   overlay_color: "rgba(0, 0, 0, 0.5)"
-title: "Início"
+title: ""
 permalink: /
 ---
 

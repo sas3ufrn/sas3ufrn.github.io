@@ -1,7 +1,8 @@
 ---
 layout: splash
 header:
-  image_fullwidth: logo-sas.png
+  overlay_color: "#5e616c"
+  overlay_image: /images/morro-careca-sas.jpg
 title: "Sobre o III SAS"
 permalink: /sobre/
 ---

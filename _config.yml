@@ -24,7 +24,7 @@ name                     : "DCA-CT-UFRN"
 description              : "Página do III Simpósio de Automação e Sistemas."
 url                      : https://sas3ufrn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 urlimg                   : https://sas3ufrn.github.io/images/
-baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/morro-careca.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/logo-sas-color.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -161,6 +161,7 @@ footer:
 include:
   - .htaccess
   - _pages
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -320,7 +321,53 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "docs"
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _pets
+  - scope:
+      path: ""
+      type: pets
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
