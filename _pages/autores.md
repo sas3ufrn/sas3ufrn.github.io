@@ -12,7 +12,8 @@ As contribuições para o III SAS devem ser feitas na página do congresso na pl
 
 Serão aceitos trabalhos escritos em língua portuguesa.
 
-A versão final do artigo pode ter até 8 páginas (com limite mínimo de 4 páginas).
+**Atenção:** A versão final do artigo pode ter até 8 páginas (com limite mínimo de 4 páginas).
+{: .notice--danger}
 
 Os autores podem utilizar um dos seguintes modelos para elaboração dos artigos a serem submetidos para o III SAS
 
