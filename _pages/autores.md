@@ -8,22 +8,22 @@ title: "Informações aos autores"
 permalink: /autores/
 ---
 
-As inscrições para o III Simpósio de Automação e Sistemas já possuem cronograma definido.
+As contribuições para o III SAS devem ser feitas na página do congresso na plataforma Easychair.
 
-### Cronograma
+Serão aceitos trabalhos escritos em língua portuguesa.
 
-*   **Período de Inscrições:** de 01/10/2026 a 23/10/2026.
+A versão final do artigo pode ter até 8 páginas (com limite mínimo de 4 páginas).
 
-### Submissão de Artigos e Palestras
+Os autores podem utilizar um dos seguintes modelos para elaboração dos artigos a serem submetidos para o III SAS
 
-Se você deseja submeter trabalhos para o simpósio, fique atento às datas:
+<a href="/files/modelo-artigo-latex.zip" class="btn btn--success"> <i class="fa-solid fa-file"></i> Modelo de Artigo em LaTeX </a>
 
-*   **Submissão de artigos e propostas de palestras:** de 31/08/2026 a 30/09/2026.
-*   **Avaliação:** 01/10/2026 a 16/10/2026.
-*   **Envio da versão final:** até 23/10/2026.
+<a href="/files/modelo-artigo-word.zip"  class="btn btn--info"> <i class="fa-solid fa-file"></i> Modelo de Artigo em Word </a>
 
-<a href="https://forms.gle/bvFogp6bJjtkNmXx9" class="btn btn--success btn--large">Realizar Inscrição</a>
+Sugere-se utilizar os seguintes modelos para a apresentação do trabalho:
+
+<a href="/files/modelo-slides-latex.zip"  class="btn btn--success"> <i class="fa-solid fa-person-chalkboard"></i> Modelo de Slides em LaTeX </a>
+
+<a href="/files/modelo-slides-powerpoint.zip"  class="btn btn--info"> <i class="fa-solid fa-person-chalkboard"></i> Modelo de Slides em Word </a>
 
 ---
-
-> **Atenção:** Mais informações sobre o formulário de inscrição e eventuais taxas serão divulgadas em breve nesta página. Fique atento às atualizações.
