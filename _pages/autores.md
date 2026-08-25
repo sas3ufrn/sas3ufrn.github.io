@@ -3,7 +3,7 @@ layout: splash
 hidden: false
 header:
   overlay_color: "#5e616c"
-  overlay_image: /images/inscricao-header.png
+  overlay_image: /images/autores-header.png
 title: "Informações aos autores"
 permalink: /autores/
 ---
