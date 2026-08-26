@@ -112,7 +112,7 @@ header:
 analytics:
   provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-EMX0NWTGV8
+    tracking_id          : G-WDET0SD4FJ
     anonymize_ip         : true # true, false (default)
 
 
@@ -127,7 +127,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:maitelli@dca.ufrn.br"
+      url :  "mailto:submissao.sas@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://www.dca.ufrn.br"
