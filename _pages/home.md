@@ -49,6 +49,21 @@ O III SAS é realizado pela **Universidade Federal do Rio Grande do Norte (UFRN)
 Acompanhe as informações sobre a **programação**, as **inscrições** e as demais atividades do evento.
 
 
-[Confira a programação](/programacao/){: .btn .btn--primary}
+### Apoio
 
-[Informações sobre inscrições](/inscricoes/){: .btn .btn--primary}
+<div class="apoio-logos">
+  <img src="/images/logo-ufrn.svg" alt="Logo UFRN" height="100">
+  <img src="/images/logo-dca.svg" alt="Logo DCA" height="100">
+  <img src="/images/logo-laut.svg" alt="Logo LAUT" height="100">
+  <img src="/images/logo-esig.svg" alt="Logo eSig" height="100">
+  <img src="/images/logo-idus.svg" alt="Logo IDUS" height="100">
+</div>
+
+<div class="apoio-botoes">
+  <a href="/programacao/" class="btn btn--primary">
+    Confira a programação
+  </a>
+  <a href="/inscricoes/" class="btn btn--primary">
+    Informações sobre inscrições
+  </a>
+</div>
