@@ -6,7 +6,7 @@ header:
   overlay_filter: rgba(255, 119, 0, 0.23)
   overlay_color: "rgba(0, 0, 0, 0.5)"
 title: ""
-excerpt: "11 e 12 de novembro de 2026 <br /> <small>DCA/CT/UFRN</small>"
+excerpt: "12 e 13 de novembro de 2026 <br /> <small>DCA/CT/UFRN</small>"
 permalink: /
 ---
 
