@@ -12,7 +12,7 @@ As inscrições para o III Simpósio de Automação e Sistemas já possuem crono
 
 ### Cronograma
 
-*   **Período de Inscrições:** de 01/10/2026 a 23/10/2026.
+*   **Período de Inscrições:** de 04/09/2026 a 31/10/2026.
 
 ### Submissão de Artigos e Palestras
 
