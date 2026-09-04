@@ -4,7 +4,7 @@ main:
   url: "/"
   side: left
 
-- title: "Informações aos Autores"
+- title: "Aos Autores"
   url: "/autores/"
   side: left
 
@@ -12,7 +12,7 @@ main:
   url: "/programacao/"
   side: left
 
-- title: "Inscrições e Datas Importantes"
+- title: "Inscrições e Datas"
   url: "/inscricoes/"
   side: left
 
