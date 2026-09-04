@@ -22,7 +22,7 @@ Se você deseja submeter trabalhos para o simpósio, fique atento às datas:
 *   **Avaliação:** 01/10/2026 a 16/10/2026.
 *   **Envio da versão final:** até 23/10/2026.
 
-<a href="https://sigaa.ufrn.br/sigaa/public/extensao/consulta_extensao.jsf" class="btn btn--success btn--large">Realizar Inscrição</a>
+<a href="https://sigaa.ufrn.br/sigaa/public/extensao/consulta_extensao.jsf" class="btn btn--success btn--large">Realizar Inscrição</a> (Busque evento "III SAS" no SIGAA)
 
 ---
 
