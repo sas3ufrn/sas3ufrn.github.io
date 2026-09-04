@@ -12,7 +12,7 @@ main:
   url: "/programacao/"
   side: left
 
-- title: "Inscrições"
+- title: "Inscrições e Datas Importantes"
   url: "/inscricoes/"
   side: left
 
