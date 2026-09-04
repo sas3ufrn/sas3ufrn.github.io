@@ -19,13 +19,13 @@ Os autores podem utilizar um dos seguintes modelos para elaboração dos artigos
 
 <a href="/files/modelo-artigo-latex.zip" class="btn btn--success"> <i class="fa-solid fa-file"></i> Modelo de Artigo em LaTeX </a>
 
-<a href="/files/modelo-artigo-word.zip"  class="btn btn--info"> <i class="fa-solid fa-file"></i> Modelo de Artigo em Word </a>
+<a href="/files/iiisas.docx"  class="btn btn--info"> <i class="fa-solid fa-file"></i> Modelo de Artigo em Word </a>
 
 Sugere-se utilizar os seguintes modelos para a apresentação do trabalho:
 
 <a href="/files/modelo-slides-latex.zip"  class="btn btn--success"> <i class="fa-solid fa-person-chalkboard"></i> Modelo de Slides em LaTeX </a>
 
-<a href="/files/modelo-slides-powerpoint.zip"  class="btn btn--info"> <i class="fa-solid fa-person-chalkboard"></i> Modelo de Slides em Powerpoint </a>
+<a href="/files/iiisas.pptx"  class="btn btn--info"> <i class="fa-solid fa-person-chalkboard"></i> Modelo de Slides em Powerpoint </a>
 
 ---
 
