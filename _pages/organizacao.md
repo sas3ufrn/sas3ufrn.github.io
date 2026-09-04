@@ -34,12 +34,13 @@ permalink: /organizacao/
 * Prof. Dr. Agostinho Brito
 * Prof. Dr. Fábio Meneghetti
 * Ana Sophia Soares
+* Aurea Cabral
+* Dominic Rodrigues
+* Fernando Couto
+* Guilherme Nascimento
+* João Paulo Ferreira
 * Laíze Oliveira
 * Marina Lucena
-* Aurea Cabral
-* Guilherme
-* Dominic
-* Fernando Couto
 
 Para dúvidas sobre submissões, inscrições ou programação, entre em contato através do canal oficial da instituição organizadora <a href="mailto:submissao.sas@gmail.com" class="btn btn--warning"> <i class="fas fa-envelope"></i> submissao.sas@gmail.com </a>.
 

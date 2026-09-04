@@ -34,12 +34,13 @@ permalink: /contact/
 * Prof. Dr. Agostinho Brito
 * Prof. Dr. Fábio Meneghetti
 * Ana Sophia Soares
+* Aurea Cabral
+* Dominic Rodrigues
+* Fernando Couto
+* Guilherme Nascimento
+* João Paulo Ferreira
 * Laíze Oliveira
 * Marina Lucena
-* Aurea Cabral
-* Guilherme
-* Dominic
-* Fernando Couto
 
 Para dúvidas sobre submissões, inscrições ou programação, entre em contato através dos canais oficiais da instituição organizadora.
 
