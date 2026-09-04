@@ -25,5 +25,3 @@ Se você deseja submeter trabalhos para o simpósio, fique atento às datas:
 <a href="https://sigaa.ufrn.br/sigaa/public/extensao/consulta_extensao.jsf" class="btn btn--success btn--large">Realizar Inscrição pelo SIGAA</a> (Busque evento **III SAS** no SIGAA)
 
 ---
-
-> **Atenção:** Mais informações sobre o formulário de inscrição e eventuais taxas serão divulgadas em breve nesta página. Fique atento às atualizações.
