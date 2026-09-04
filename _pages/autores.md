@@ -25,7 +25,7 @@ Sugere-se utilizar os seguintes modelos para a apresentação do trabalho:
 
 <a href="/files/modelo-slides-latex.zip"  class="btn btn--success"> <i class="fa-solid fa-person-chalkboard"></i> Modelo de Slides em LaTeX </a>
 
-<a href="/files/modelo-slides-powerpoint.zip"  class="btn btn--info"> <i class="fa-solid fa-person-chalkboard"></i> Modelo de Slides em Word </a>
+<a href="/files/modelo-slides-powerpoint.zip"  class="btn btn--info"> <i class="fa-solid fa-person-chalkboard"></i> Modelo de Slides em Powerpoint </a>
 
 ---
 
