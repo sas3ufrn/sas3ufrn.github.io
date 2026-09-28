@@ -28,7 +28,7 @@ improve_content: https://github.com/sas3ufrn/sas3ufrn.github.io/edit/dev
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://sas3ufrn.github.io/images/'
+urlimg: '/images/'
 
 
 # Logo size is 600x80 pixels
