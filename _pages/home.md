@@ -56,7 +56,7 @@ Acompanhe as informações sobre a **programação**, as **inscrições** e as d
   <img src="/images/logo-dca.svg" alt="Logo DCA" height="100">
   <img src="/images/logo-laut.svg" alt="Logo LAUT" height="100">
   <img src="/images/logo-esig.svg" alt="Logo eSig" height="100">
-  <img src="/images/logo-idus.svg" alt="Logo IDUS" height="100">
+  <img src="/images/logo-idus.png" alt="Logo IDUS" height="100">
   <img src="/images/logo-funpec.png" alt="Logo FUNPEC" height="100">
 </div>
 
