@@ -12,8 +12,8 @@ As inscrições para o III Simpósio de Automação e Sistemas já possuem crono
 
 ### Datas Importantes
 
-*   **Submissão de artigos e propostas de palestras:** de 31/08/2026 a 16/10/2026.
-*   **Avaliação de artigos:** 17/10/2026 a 27/10/2026.
+*   **Submissão de artigos e propostas de palestras:** de 31/08/2026 a 23/10/2026.
+*   **Avaliação de artigos:** 26/10/2026 a 29/10/2026.
 *   **Envio da versão final:** até 06/11/2026.
 *   **Período de Inscrições:** de 04/09/2026 a 31/10/2026 (via SIGAA).
 
