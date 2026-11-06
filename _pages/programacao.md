@@ -10,7 +10,7 @@ permalink: /programacao/
 
 # Confira a programação do III Simpósio de Automação e Sistemas
 
-## Dia 12/11/2026 (Quinta-Feira)
+## Dia 12/11/2026 (Quinta-Feira) - Auditório da Reitoria / Auditório do CTEC
 
 | Horário       | Atividade                                                                                                                               |
 | :------------ | :-------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,7 +25,7 @@ permalink: /programacao/
 | 15h00 - 15h30 | Coffee-Break                                                                                                                            |
 | 15h30 - 17h30 | Apresentação de artigos (6 artigos) (15+05 minutos)                                                                                     |
 
-## Dia 13/11/2026 (Sexta-Feira)
+## Dia 13/11/2026 (Sexta-Feira) - Auditório do CTEC
 
 | Horário       | Atividade                                                                                                                                       |
 | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------- |
