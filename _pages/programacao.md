@@ -31,9 +31,9 @@ permalink: /programacao/
 | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------- |
 | 09h00 - 10h00 | Plenária 2 – Automação aplicada ao setor de óleo e gás (Msc. Heitor Gomes – CEO Idus Inteligência Industrial e Prof. André Maitelli - DCA/UFRN) |
 | 10h00 - 10h30 | Coffee-Break                                                                                                                                    |
-| 10h30 - 12h30 | Apresentação de artigos (6 artigos)(15+05 minutos)                                                                                              |
+| 10h30 - 12h30 | Apresentação de artigos (6 artigos) (15+05 minutos)                                                                                             |
 | 12h30 - 14h00 | Almoço                                                                                                                                          |
-| 14h00 - 16h00 | Apresentação de artigos (15+05 minutos)                                                                                                         |
+| 14h00 - 16h00 | Apresentação de artigos (6 artigos) (15+05 minutos)                                                                                             |
 | 16h00 - 16h30 | Coffee-Break                                                                                                                                    |
 | 16h30 - 17h00 | Encerramento                                                                                                                                    |
 
