@@ -9,7 +9,7 @@ permalink: /anais/
 
 ### Versão preliminar dos Anais do III SAS
 
-<a href="/files/anais/anais_III_SAS.pdf" class="btn btn--success"> <i class="fa-solid fa-file"></i> Versão preliminar dos Anais</a>
+<a href="/files/anais/anais_III_SAS.pdf" class="btn btn--success"> <i class="fa-solid fa-book-bookmark"></i> Versão preliminar dos Anais</a>
 
 Para dúvidas ou ajustes nos anais do evento, entre em contato através do canal oficial da instituição organizadora <a href="mailto:submissao.sas@gmail.com" class="btn btn--warning"> <i class="fas fa-envelope"></i> submissao.sas@gmail.com </a>.
 
