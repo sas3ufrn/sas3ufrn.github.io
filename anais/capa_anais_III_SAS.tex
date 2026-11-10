@@ -1,0 +1,104 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{microtype}
+\geometry{top=1.8cm,bottom=1.8cm,left=2cm,right=2cm}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\definecolor{SASNavy}{HTML}{003B63}
+\definecolor{SASBlue}{HTML}{07517D}
+\definecolor{SASOrange}{HTML}{F47721}
+\definecolor{SASGold}{HTML}{F5A900}
+\definecolor{SASLight}{HTML}{F4F7F9}
+\definecolor{SASGray}{HTML}{536574}
+
+% Símbolo vetorial inspirado na marca fornecida:
+% raios alaranjados, engrenagem azul e rede de nós com a sigla SAS.
+\newcommand{\SASemblem}[1][1]{%
+\begin{tikzpicture}[scale=#1,line cap=round,line join=round]
+  % Raios solares
+  \foreach \a in {0,15,...,345}{
+    \begin{scope}[rotate=\a]
+      \fill[SASOrange] (-0.065,1.42) rectangle (0.065,1.83);
+    \end{scope}
+  }
+  % Corpo da engrenagem
+  \fill[SASNavy] (0,0) circle (1.05);
+  \foreach \a in {0,30,...,330}{
+    \begin{scope}[rotate=\a]
+      \fill[SASNavy] (-0.17,0.88) rectangle (0.17,1.18);
+    \end{scope}
+  }
+  % Anel branco e contorno interno
+  \fill[white] (0,0) circle (0.79);
+  \draw[SASBlue,line width=2.2pt] (0,0) circle (0.79);
+  \draw[SASOrange,line width=2.2pt] (0,-0.79) arc[start angle=-90,end angle=90,radius=0.79];
+
+  % Rede de conexões
+  \draw[SASNavy,line width=1.5pt]
+    (0,0.48)--(-0.43,0.16)--(-0.43,-0.16)--(0,-0.49)--(0.43,-0.16)--(0.43,0.16)--cycle;
+  \draw[SASNavy,line width=1.5pt] (0,0.48)--(0,-0.49);
+  \draw[SASNavy,line width=1.5pt] (-0.43,0.16)--(0.43,0.16);
+  \foreach \x/\y in {0/0.48,-0.43/0.16,0.43/0.16,-0.43/-0.16,0.43/-0.16,0/-0.49}{
+    \fill[SASNavy] (\x,\y) circle (0.055);
+  }
+  \node[font=\sffamily\bfseries\fontsize{24}{24}\selectfont,text=SASNavy,
+        fill=white,inner sep=1pt] at (0,0) {SAS};
+\end{tikzpicture}%
+}
+
+\begin{document}
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[SASLight] (current page.south west) rectangle (current page.north east);
+  \fill[SASNavy] (current page.north west) rectangle
+    ([yshift=-0.48cm]current page.north east);
+  \fill[SASGold] ([yshift=-0.48cm]current page.north west) rectangle
+    ([yshift=-0.56cm]current page.north east);
+  \fill[SASOrange] (current page.south west) rectangle
+    ([yshift=0.22cm]current page.south east);
+  \fill[SASBlue!7] ([xshift=-1.0cm,yshift=1.0cm]current page.south east) circle (3cm);
+  \fill[SASOrange!8] ([xshift=-1.0cm,yshift=1.0cm]current page.south east) circle (2.2cm);
+\end{tikzpicture}
+
+\vspace*{0.55cm}
+\begin{center}
+  {\sffamily\bfseries\color{SASNavy}\Large III SIMPÓSIO DE AUTOMAÇÃO E SISTEMAS}\\[0.18cm]
+  {\sffamily\small\color{SASGray}III SAS \textbullet\ Anais do evento}
+
+  \vspace{1.0cm}
+  %\SASemblem[1.15]
+
+  \vspace{0.9cm}
+  {\sffamily\bfseries\color{SASOrange}\large ANAIS}\\[0.25cm]
+  {\sffamily\bfseries\color{SASNavy}\fontsize{25}{30}\selectfont
+    III Simpósio de\\[0.08cm]Automação e Sistemas}
+
+  \vspace{0.5cm}
+  {\color{SASGray}\rule{0.48\textwidth}{1.1pt}}
+
+  \vspace{0.5cm}
+  {\sffamily\color{SASGray}\large Pesquisa, inovação e aplicações em automação}
+\end{center}
+
+\vfill
+\begin{center}
+  \begin{tikzpicture}
+    \node[fill=white,draw=SASBlue!25,rounded corners=3pt,
+      inner xsep=18pt,inner ysep=12pt,text width=0.72\textwidth,align=center] {
+      {\sffamily\bfseries\color{SASNavy} [INSTITUIÇÃO / ORGANIZAÇÃO]}\\[0.22cm]
+      {\sffamily\color{SASGray} [Cidade -- Estado]}\\[0.18cm]
+      {\sffamily\bfseries\color{SASOrange} 2026}
+    };
+  \end{tikzpicture}
+
+  \vspace{0.65cm}
+  {\sffamily\small\color{SASGray} Organizadores: [Nomes dos organizadores]}
+\end{center}
+\vspace*{0.3cm}
+\end{document}

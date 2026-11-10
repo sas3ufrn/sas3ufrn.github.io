@@ -1,0 +1,369 @@
+\documentclass[12pt,a4paper,oneside,openany]{book}
+
+% =================================================================
+% Pacotes e configuração geral
+% (a ordem importa: hyperref SEMPRE por último)
+% =================================================================
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2.5cm,right=2cm]{geometry}
+\usepackage[svgnames]{xcolor}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{pdfpages}
+\usepackage[noautomatic]{imakeidx}
+\usepackage[hidelinks,bookmarksopen=true]{hyperref}
+
+% --- cores (sem definições duplicadas) ---
+\definecolor{SASNavy}{HTML}{003B63}
+\definecolor{SASBlue}{HTML}{07517D}
+\definecolor{SASOrange}{HTML}{F47721}
+\definecolor{SASGold}{HTML}{F5A900}
+\definecolor{SASLight}{HTML}{F4F7F9}
+\definecolor{SASGray}{HTML}{536574}
+
+\hypersetup{
+  pdftitle={Anais do III Simpósio de Automação e Sistemas},
+  pdfauthor={Laboratório de Automação -- DCA/UFRN},
+  pdfsubject={III SAS -- 12 e 13 de novembro de 2026},
+  pdfkeywords={automação; sistemas; controle; inteligência artificial; anais}
+}
+
+% --- títulos ---
+\titleformat{\section}
+  {\fontfamily{phv}\selectfont\Large\bfseries\color{DarkGoldenrod}}
+  {\thesection}{1em}{}
+\titleformat{\subsection}
+  {\fontfamily{phv}\selectfont\large\bfseries\color{DarkGoldenrod}}
+  {\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\fontfamily{phv}\selectfont\normalsize\bfseries\color{DarkGoldenrod}}
+  {\thesubsubsection}{1em}{}
+\titleformat{\chapter}
+  {\fontfamily{phv}\selectfont\huge\bfseries\color{DarkGoldenrod}}
+  {\thechapter}{1em}{}
+
+% =================================================================
+% Cabeçalho/rodapé e NUMERAÇÃO DE PÁGINAS
+% O número fica SEMPRE no rodapé central, em todas as páginas
+% (inclusive nas páginas dos artigos incluídos via pdfpages).
+% =================================================================
+\setlength{\headheight}{15pt}
+
+
+\newcommand{\PaginaDourada}{%
+  \begin{tikzpicture}[baseline=(n.base)]
+    \node[fill=SASGold, rounded corners=2pt,
+          inner xsep=7pt, inner ysep=3pt,
+          text=SASNavy, font=\sffamily\footnotesize\bfseries] (n) {\thepage};
+  \end{tikzpicture}}
+
+
+\fancypagestyle{anais}{%
+  \fancyhf{}%
+  \fancyhead[R]{\small III Simpósio de Automação e Sistemas}%
+  \fancyfoot[C]{\small \thepage}%
+  \renewcommand{\headrulewidth}{0.4pt}%
+  \renewcommand{\footrulewidth}{0pt}}
+\fancypagestyle{plain}{%   1ª página de \chapter*: mesmo rodapé, sem filete
+  \fancyhf{}%
+  \fancyfoot[C]{\small\thepage}%
+  \renewcommand{\headrulewidth}{0pt}}
+\fancypagestyle{artigo}{%  páginas dos PDFs dos artigos: só o número
+  \fancyhf{}%
+  \fancyfoot[C]{{\PaginaDourada}}%
+  \renewcommand{\headrulewidth}{0pt}}
+\pagestyle{anais}
+
+% =================================================================
+% Macro para inserir artigos
+%   \Artigo{arquivo-sem-extensão}{Título no sumário}{\Autor{..}\Autor{..}}
+% - A entrada do sumário é criada DENTRO da 1ª página do artigo (pagecommand),
+%   e não depois do \includepdf: isso corrige o deslocamento de um
+%   artigo na numeração do sumário.
+% - O índice de autores aponta para a 1ª página do artigo.
+% =================================================================
+\newcommand{\Autor}[1]{\index[autores]{#1}}
+\newcommand{\Artigo}[3]{%
+  \includepdf[pages=1,
+     pagecommand={\thispagestyle{artigo}\phantomsection
+                  \addcontentsline{toc}{section}{#2}#3}]{artigos/#1.pdf}%
+  \includepdf[pages=2-,
+     pagecommand={\thispagestyle{artigo}}]{artigos/#1.pdf}}
+
+\makeindex[name=autores,title={Índice de autores},columns=2,intoc]
+
+\begin{document}
+
+% =================================================================
+% Capa
+% =================================================================
+\begin{titlepage}
+  \thispagestyle{empty}
+  \begin{tikzpicture}[remember picture,overlay]
+    \fill[SASLight] (current page.south west) rectangle (current page.north east);
+    \fill[SASNavy] (current page.north west) rectangle
+      ([yshift=-0.48cm]current page.north east);
+    \fill[SASGold] ([yshift=-0.48cm]current page.north west) rectangle
+      ([yshift=-0.56cm]current page.north east);
+    \fill[SASOrange] (current page.south west) rectangle
+      ([yshift=0.32cm]current page.south east);
+  \end{tikzpicture}
+
+  \vspace*{0.55cm}
+  \begin{center}
+    {\sffamily\bfseries\color{SASNavy}\Large III SIMPÓSIO DE AUTOMAÇÃO E SISTEMAS}\\[0.18cm]
+
+    \vspace{1.0cm}
+    % não quebra a compilação se o logo estiver ausente
+    \IfFileExists{logo-sas-color.pdf}%
+    {\includegraphics[width=0.28\textwidth]{logo-sas-color.pdf}}%
+    {\fbox{\rule{0pt}{2.5cm}\hspace{4cm}\textsf{logo}}}
+
+    \vspace{0.9cm}
+    {\sffamily\bfseries\color{SASOrange}\large \textbullet\ ANAIS \textbullet\ }\\[1cm]
+    {\sffamily\bfseries\color{SASNavy}\fontsize{25}{30}\selectfont
+      III Simpósio\\[12pt] de Automação e Sistemas}
+
+    \vspace{0.5cm}
+    {\color{SASGray}\rule{0.48\textwidth}{1.1pt}}
+
+    \vspace{0.5cm}
+    {\sffamily\color{SASGray}\large Pesquisa, inovação e aplicações em automação}
+  \end{center}
+
+  \vfill
+  \begin{center}
+    \begin{tikzpicture}
+      \node[fill=white,draw=SASBlue!25,rounded corners=3pt,
+        inner xsep=18pt,inner ysep=12pt,text width=0.72\textwidth,align=center] {
+        {\sffamily\bfseries\color{SASNavy} LAUT / DCA / CT / UFRN}\\[0.22cm]
+        {\sffamily\color{SASGray} NATAL -- RN}\\[0.18cm]
+        {\sffamily\bfseries\color{SASOrange} 2026}
+      };
+    \end{tikzpicture}
+
+    \vspace{0.65cm}
+    {\sffamily\small\color{SASGray} Organizadores: LAUT/DCA/UFRN}
+  \end{center}
+\end{titlepage}
+
+% =================================================================
+% Folha de rosto  (página i: contada, sem número visível)
+% NOTA: não usar \begin{titlepage} aqui. Em documentos "oneside" esse
+% ambiente executa \setcounter{page}{1} ao final, reiniciando a
+% contagem e fazendo a Apresentação voltar a ser "i".
+% =================================================================
+\frontmatter
+\thispagestyle{empty}
+\begin{center}
+  \vspace*{2cm}
+  {\Large\bfseries Anais do III Simpósio de Automação e Sistemas\par}
+  \vspace{0.5cm}
+  {\large III SAS\par}
+  \vfill
+  {\large Organização\\Laboratório de Automação (LAUT)\\
+    Departamento de Engenharia de Computação e Automação\\
+    Universidade Federal do Rio Grande do Norte\par}
+  \vfill
+  {\large Natal -- RN\\2026\par}
+\end{center}
+\clearpage
+
+% =================================================================
+% Apresentação
+% =================================================================
+\chapter*{Apresentação}
+\addcontentsline{toc}{chapter}{Apresentação}
+
+O III Simpósio de Automação e Sistemas (III SAS) é um evento promovido pelo
+Laboratório de Automação (LAUT), vinculado ao Departamento de Engenharia de
+Computação e Automação da Universidade Federal do Rio Grande do Norte
+(DCA/UFRN). Realizado nos dias 12 e 13 de novembro de 2026, em Natal/RN, o
+simpósio reúne atividades de discussão, divulgação científica e apresentação
+de trabalhos relacionados à automação e a sistemas inteligentes.
+
+Esta edição também integra as comemorações dos 30 anos do curso de Engenharia
+de Computação da UFRN. A programação contempla palestras, sessões plenárias e
+apresentações de artigos, abordando temas como inteligência artificial,
+desenvolvimento de software, automação e aplicações nos setores produtivos.
+
+\chapter*{Organização e comissões}
+\addcontentsline{toc}{chapter}{Organização e comissões}
+
+\section*{Organização}
+Laboratório de Automação (LAUT) -- Departamento de Engenharia de Computação e
+Automação (DCA/UFRN).
+
+\section*{Comissão Técnica}
+\begin{itemize}[itemsep=1pt,topsep=2pt]
+  \item Agostinho de Medeiros Brito Junior (UFRN)
+  \item Anderson Cavalcanti (UFRN)
+  \item André Laurindo Maitelli (UFRN)
+  \item Carlos Eduardo Trabuco Dorea (UFRN)
+  \item Fábio Meneghetti Ugulino de Araujo (UFRN) % confirmar grafia (acento)
+\end{itemize}
+
+\section*{Comissão de Apoio}
+\begin{itemize}[itemsep=1pt,topsep=2pt]
+  \item Ana Sophia Diógenes Soares (UFRN) % confirmar grafia (acento)
+  \item Aurea da Silva Cabral (UFRN)
+  \item Dominic N. Rodrigues (UFRN)
+  \item Fernando Henrique do Couto (UFRN)
+  \item Guilherme C. M. Nascimento (UFRN)
+  \item João Paulo Ferreira (UFRN)
+  \item Laíze Suélia da Silva Oliveira (UFRN)
+  \item Marina Lucena Araujo (UFRN)
+\end{itemize}
+
+% =================================================================
+% Programação (espaçamento reduzido para não deixar poucos itens
+% órfãos numa página isolada)
+% =================================================================
+\chapter*{Programação}
+\addcontentsline{toc}{chapter}{Programação}
+
+\setlist[description]{leftmargin=2.2cm,style=nextline,itemsep=3pt,parsep=0pt,topsep=3pt}
+
+\section*{12 de novembro de 2026 -- Auditório da Reitoria}
+\begin{description}
+  \item[08h00] Credenciamento.
+  \item[09h00] Abertura -- Prof. Anderson Cavalcanti (Chefe do DCA/UFRN) e Profa. Carla Maitelli (Diretora do Centro de Tecnologia/UFRN).
+  \item[09h30] Palestra: \textit{30 anos do curso de Engenharia de Computação} -- Prof. Samuel Xavier (DCA/UFRN).
+  \item[10h20] Coffee-break.
+  \item[10h50] Palestra: \textit{A disrupção no desenvolvimento de software: onde estamos e o que nos espera} -- Eng. Gleydson Lima (CEO, eSIG Group).
+  \item[11h40] Palestra: \textit{O curso de Engenharia de Computação na UFRN -- Evolução} -- Prof. Adelardo Medeiros (DCA/UFRN).
+  \item[12h30] Almoço.
+\end{description}
+
+\section*{12 de novembro de 2026 -- Auditório do CTEC}
+\begin{description}
+  \item[14h00] Plenária: \textit{Da automação à autonomia: como a inteligência artificial está redefinindo a engenharia} -- Prof. Ivanovitch Silva (DCA/UFRN).
+  \item[15h00] Coffee-break.
+  \item[15h30] Apresentação de artigos (15 minutos de apresentação e 5 minutos para perguntas) -- 6 trabalhos.
+\end{description}
+
+\section*{13 de novembro de 2026 -- Auditório do CTEC}
+\begin{description}
+  \item[09h00] Plenária: \textit{Automação aplicada ao setor de óleo e gás} -- M.Sc. Heitor Gomes (CEO, Idus Inteligência) e Prof. André Maitelli (DCA/UFRN).
+  \item[10h00] Coffee-break.
+  \item[10h30] Apresentação de artigos (15 minutos de apresentação e 5 minutos para perguntas) -- 6 trabalhos.
+  \item[12h30] Almoço.
+  \item[14h00] Apresentação de artigos (15 minutos de apresentação e 5 minutos para perguntas) -- 6 trabalhos.
+  \item[16h00] Coffee-break.
+  \item[16h30] Encerramento.
+\end{description}
+
+% =================================================================
+% Sumário e trabalhos
+% =================================================================
+\tableofcontents
+\mainmatter
+
+\chapter*{Trabalhos publicados}
+\addcontentsline{toc}{chapter}{Trabalhos publicados}
+
+\Artigo{01_estudos_preliminares_para_o_desenvolvimento_de_uma_arquitetura_modular_baseada_em_ia_para_interacao_com_sistemas_de_gestao_de_malhas_de_controle}
+{Estudos preliminares para o desenvolvimento de uma arquitetura modular baseada em IA para interação com sistemas de gestão de malhas de controle}
+{\Autor{Ana Sophia Diógenes Soares}\Autor{Fernando Eduardo Dias}\Autor{Fábio Meneghetti Ugulino de Araujo}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{02_sistema_de_inspecao_visual_automatizada_para_controle_de_qualidade_em_pecas_fabricadas}
+{Sistema de inspeção visual automatizada para controle de qualidade em peças fabricadas}
+{\Autor{Israel Lucas}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{03_analise_teorica_e_experimental_da_resposta_de_um_gerador_sincrono_a_insercao_de_um_degrau_de_carga}
+{Análise teórica e experimental da resposta de um gerador síncrono à inserção de um degrau de carga}
+{\Autor{Levi da Silva Lopes}\Autor{José Higor Rodrigues Soares}\Autor{Rodrigo Prado de Medeiros}\Autor{Thiago de Oliveira Alves Rocha}\Autor{Ricardo Lúcio de Araújo Ribeiro}\Autor{José Patrocínio da Silva}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{04_analise_da_influencia_de_variacoes_de_atraso_em_controladores_gpc_aplicados_ao_modelo_de_slate_para_pressao_arterial}
+{Análise da influência de variações de atraso em controladores GPC aplicados ao modelo de slate para pressão arterial}
+{\Autor{Fernando Henrique de Couto}\Autor{Aurea da Silva Cabral}\Autor{André Laurindo Maitelli}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{05_gemeos_digitais_na_industria_4_0_aplicacao_em_tanques_acoplados}
+{Gêmeos digitais na indústria 4.0: aplicação em tanques acoplados}
+{\Autor{Kaillane Araújo da Silva}\Autor{Fabio Meneghetti Ugulino de Araujo}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{06_uma_revisao_de_metodologias_inteligentes_de_classificacao_de_curtos_circuitos_em_sistemas_eletricos_de_potencia}
+{Uma revisão de metodologias inteligentes de classificação de curtos circuitos em sistemas elétricos de potência}
+{\Autor{Guilherme Nascimento da Silva}, \Autor{Fabio Meneghetti Ugulino de Araujo}, \Autor{Rodrigo Prado de Medeiros}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{07_interface_baseada_em_agentes_de_ia_para_exploracao_e_controle_de_qualidade_de_dados_sismicos}
+{Interface baseada em agentes de IA para exploração e controle de qualidade de dados sísmicos}
+{\Autor{José A. A. Oliveira}, \Autor{Luiz F. S. Silva}, \Autor{Ernane Ferreira Rocha Junior}, \Autor{Victor Gomes}, \Autor{Ignacio Sánchez-Gendriz}, \Autor{Ivanovitch Silva}, \Autor{Luiz Affonso Guedes}, \Autor{Tiago Barros}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{08_identificacao_de_padroes_e_anomalias_em_reclamacoes_de_telecomunicacoes_no_nordeste_brasileiro_usando_aprendizado_nao_supervisionado}
+{Identificação de padrões e anomalias em reclamações de telecomunicações no Nordeste brasileiro usando aprendizado não supervisionado}
+{\Autor{Sayonara Cristina de Oliveira Magalhães}, \Autor{Emelyn Clementino Freire}, \Autor{Arthur Phelipe de Oliveira Queiroz}, \Autor{Marcelo Jorge Oliveira de Albuquerque Melo}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{10_biblioteca_para_calculo_de_conjuntos_invariantes_com_julia}
+{Biblioteca para cálculo de conjuntos invariantes com Julia}
+{\Autor{Nicholas W. Lopes}, \Autor{Felipe R. Silva}, \Autor{Carlos E. T. Dórea}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{12_desenvolvimento_de_ferramenta_computacional_multicriterio_para_avaliacao_de_desempenho_de_controladores_pid}
+{Desenvolvimento de uma ferramenta computacional multicritério para avaliação de desempenho de controladores PID}
+{\Autor{Thyfanne Dayane Cosme do Nascimento}, \Autor{Dominic Nascimento Rodrigues}, \Autor{André Laurindo Maitelli}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{13_framework_paralelo_de_ajuste_de_campos_de_forca_atomisticos_e_coarse_grain_de_grafeno_atraves_de_otimizacao_por_enxame_de_particulas_pso}
+{Framework paralelo de ajuste de campos de força atomísticos e coarse-grain de grafeno através de otimização por enxame de partículas PSO}
+{\Autor{Iwri Simplicio Felipe}, \Autor{Elton José Figueiredo de Carvalho}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{14_plataforma_linux_embarcada_para_integracao_de_simulador_de_bombeio_mecanico_com_controlador_weg_alc11}
+{Plataforma Linux embarcada para integração de simulador de bombeio mecânico com controlador WEG ALC11}
+{\Autor{Diego Moura}, \Autor{Andres Ortiz}, \Autor{André Maitelli}, \Autor{Rodrigo Dacol}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{15_ressintonia_automatica_de_controladores_pid_baseada_em_estimativa_de_robustez}
+{Ressintonia automática de controladores PID baseada em estimativa de robustez}
+{\Autor{Araújo, Marina L.}, \Autor{Dórea, C. E. Trabuco}}
+
+% TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
+\Artigo{16_industria_sem_telas_perspectivas_para_o_uso_de_dispositivos_vestiveis_assistidos_por_modelos_de_linguagem_de_pequeno_porte}
+{Indústria sem telas: perspectivas para o uso de dispositivos vestíveis assistidos por modelos de linguagem de pequeno porte}
+{\Autor{Mateus Araujo}, \Autor{Leonardo Cavalcanti}, \Autor{Alice Freire}, \Autor{Morsinaldo Medeiros}, \Autor{Hilton Machado}, \Autor{Erick Justino}, \Autor{Marianne Silva}, \Autor{Carlos M. D. Viegas}, \Autor{Ivanovitch Silva}}
+
+\Artigo{17_arquitetura_edgecloud_para_monitoramento_inteligente_de_veiculos_conectados_com_auditabilidade_via_blockchain}
+{Arquitetura edge-cloud para monitoramento inteligente de veículos conectados com auditabilidade via blockchain}
+{\Autor{Miguel Euripedes}, \Autor{Morsinaldo Medeiros}, \Autor{Thais Medeiros}, \Autor{Hilton Machado}, \Autor{Erick Justino}, \Autor{Alice Freire}, \Autor{Marianne Silva}, \Autor{Carlos M. D. Viegas}, \Autor{Ivanovitch Silva}}
+
+\Artigo{18_desenvolvimento_de_uma_ferramenta_computacional_em_aplicacao_web_para_simular_o_comportamento_dinamico_do_bombeio_por_cavidades_progressivas_bcp_e_estudar_o_fenomeno_de_reversao_d}
+{Desenvolvimento de uma ferramenta computacional em aplicação WEB para simular o comportamento dinâmico do bombeio por cavidades progressivas (BCP) e estudar o fenômeno de reversão do fluxo}
+{\Autor{Guilherme da Costa Medeiros Nascimento}, \Autor{André Laurindo Maitelli}, \Autor{Camila Raquel Sena de Almeida}, \Autor{Pedro Manuel Pereira Chamorro}, \Autor{Rutácio de Oliveira Costa} }
+
+% =================================================================
+% Elementos pós-textuais
+% =================================================================
+\backmatter
+
+\printindex[autores]
+
+\chapter*{Expediente}
+\addcontentsline{toc}{chapter}{Expediente}
+
+\noindent\textbf{III Simpósio de Automação e Sistemas -- III SAS}\\
+12 e 13 de novembro de 2026 -- Natal/RN\\
+Organização: Laboratório de Automação (LAUT), DCA/UFRN.
+
+\vspace{0.5cm}
+\noindent Anais organizados pela Comissão Técnica do III SAS.\\
+\noindent Apoio: FUNPEC, Idus Inteligência, eSIG Group, Centro de Tecnologia, DCA, LAUT.
+
+\end{document}
