@@ -60,10 +60,14 @@
 
 
 \newcommand{\PaginaDourada}{%
-  \begin{tikzpicture}[baseline=(n.base)]
-    \node[fill=SASGold, rounded corners=2pt,
-          inner xsep=7pt, inner ysep=3pt,
-          text=SASNavy, font=\sffamily\footnotesize\bfseries] (n) {\thepage};
+ \begin{tikzpicture}[remember picture,overlay]
+    \begin{scope}[shift={(current page.south)}]
+      \fill[SASGold] (-0.45,0) [rounded corners=4pt]
+        -- (-0.45,0.9) -- (0.45,0.9)
+        [sharp corners] -- (0.45,0) -- cycle;
+      \node[text=SASNavy, font=\sffamily\footnotesize\bfseries]
+        at (0,0.45) {\thepage};
+    \end{scope}
   \end{tikzpicture}}
 
 

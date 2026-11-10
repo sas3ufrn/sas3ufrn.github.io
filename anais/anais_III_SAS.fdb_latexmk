@@ -1,14 +1,14 @@
 # Fdb version 4
-["makeindex autores.idx"] 1794308428.99143 "autores.idx" "autores.ind" "autores" 1794308436.14435 0
-  "autores.idx" 1794308435.9369 3352 4fc6d116e3bef111bd5967f252d42a0a "pdflatex"
+["makeindex autores.idx"] 1794310304.44322 "autores.idx" "autores.ind" "autores" 1794310514.37295 0
+  "autores.idx" 1794310513.29615 3352 4fc6d116e3bef111bd5967f252d42a0a "pdflatex"
   (generated)
   "autores.ilg"
   "autores.ind"
   (rewritten before read)
-["pdflatex"] 1794308432.65233 "/home/ambj/workspace/sas3ufrn.github.io/anais/anais_III_SAS.tex" "anais_III_SAS.pdf" "anais_III_SAS" 1794308436.14447 0
+["pdflatex"] 1794310510.00526 "/home/ambj/workspace/sas3ufrn.github.io/anais/anais_III_SAS.tex" "anais_III_SAS.pdf" "anais_III_SAS" 1794310514.37309 0
   "/home/ambj/.texlive2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1777382521 5469121 8275a864f6ba026d1621c00f6c776de7 ""
   "/home/ambj/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1762861629.61837 127652 e57213fe0a9a0ee95c81392a5700528a ""
-  "/home/ambj/workspace/sas3ufrn.github.io/anais/anais_III_SAS.tex" 1794308425.2639 18468 0d70ea185b10ee5c2ddd361f1e0a2169 ""
+  "/home/ambj/workspace/sas3ufrn.github.io/anais/anais_III_SAS.tex" 1794310506.13562 18605 3c91ea83a527e9a5c272abdfd7124821 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm" 1136768653 6628 34c39492c0adc454c1c199922bba8363 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm" 1136768653 4712 9ef4d7d106579d4b136e1529e1a4533c ""
@@ -241,10 +241,10 @@
   "/usr/share/texmf/tex/latex/lm/ts1lmss.fd" 1616454256 1671 4f401f2da878d7f258034a2eb5f42c85 ""
   "/var/lib/texmf/tex/generic/config/language.dat" 1779203535.53707 5231 1963bfe6b33446bd01df2c58423d701f ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1779203572 5655101 ebd9e0859d581af997f56523e913bf55 ""
-  "anais_III_SAS.aux" 1794308435.9359 4115 7833f55a289dd8e7223ca6a30cae9d87 "pdflatex"
-  "anais_III_SAS.out" 1794308435.9359 11248 b8d0420dc7712d213c46d31174d5fa98 "pdflatex"
-  "anais_III_SAS.tex" 1794308425.2639 18468 0d70ea185b10ee5c2ddd361f1e0a2169 ""
-  "anais_III_SAS.toc" 1794308435.9369 2898 411b6a59b50d5224fb7124683aeaa448 "pdflatex"
+  "anais_III_SAS.aux" 1794310513.29515 9096 59afe2e1b5d910d5673a4d46bb55f1e5 "pdflatex"
+  "anais_III_SAS.out" 1794310513.29615 11248 b8d0420dc7712d213c46d31174d5fa98 "pdflatex"
+  "anais_III_SAS.tex" 1794310506.13562 18605 3c91ea83a527e9a5c272abdfd7124821 ""
+  "anais_III_SAS.toc" 1794310513.29615 2898 411b6a59b50d5224fb7124683aeaa448 "pdflatex"
   "artigos/01_estudos_preliminares_para_o_desenvolvimento_de_uma_arquitetura_modular_baseada_em_ia_para_interacao_com_sistemas_de_gestao_de_malhas_de_controle.pdf" 1794307505.79879 285819 cc3bfc7a4d6b37dcbb3f05daf0f7a097 ""
   "artigos/02_sistema_de_inspecao_visual_automatizada_para_controle_de_qualidade_em_pecas_fabricadas.pdf" 1794307505.79988 450427 77d6db2d3d622b08b22c4be168a6d7fb ""
   "artigos/03_analise_teorica_e_experimental_da_resposta_de_um_gerador_sincrono_a_insercao_de_um_degrau_de_carga.pdf" 1794307505.80179 2734837 0718fb5d33083889ffdce87add95c2a7 ""
@@ -261,7 +261,7 @@
   "artigos/16_industria_sem_telas_perspectivas_para_o_uso_de_dispositivos_vestiveis_assistidos_por_modelos_de_linguagem_de_pequeno_porte.pdf" 1794307505.81579 1011972 0e0bf0f40e66c5473bd580fb43672275 ""
   "artigos/17_arquitetura_edgecloud_para_monitoramento_inteligente_de_veiculos_conectados_com_auditabilidade_via_blockchain.pdf" 1794307505.82079 8656202 a8421b01aa338a3784dcafaac2b0b7df ""
   "artigos/18_desenvolvimento_de_uma_ferramenta_computacional_em_aplicacao_web_para_simular_o_comportamento_dinamico_do_bombeio_por_cavidades_progressivas_bcp_e_estudar_o_fenomeno_de_reversao_d.pdf" 1794307505.82079 776056 714b7a216761383d6065f2794b20bb75 ""
-  "autores.ind" 1794308429.0839 3128 907b74b923137ec398500e235606ba09 "makeindex autores.idx"
+  "autores.ind" 1794310304.51968 3128 907b74b923137ec398500e235606ba09 "makeindex autores.idx"
   "logo-sas-color.pdf" 1794307505.82179 6460 8a4f98c98d697ff5fbd94bd3bb549f4b ""
   (generated)
   "anais_III_SAS.aux"
