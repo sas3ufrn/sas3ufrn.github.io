@@ -1,6 +1,6 @@
-PWD /home/ambj/workspace/sas3ufrn.github.io/anais
+PWD /home/ambj/workspace/sas3ufrn.github.io/files/anais
 INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
-INPUT /home/ambj/workspace/sas3ufrn.github.io/anais/anais_III_SAS.tex
+INPUT /home/ambj/workspace/sas3ufrn.github.io/files/anais/anais_III_SAS.tex
 OUTPUT anais_III_SAS.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ltluatex.lua

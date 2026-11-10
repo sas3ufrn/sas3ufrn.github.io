@@ -19,3 +19,7 @@ main:
 - title: "Organização"
   url: "/organizacao/"
   side: right
+
+- title: "Anais"
+  url: "/anais/"
+  side: right

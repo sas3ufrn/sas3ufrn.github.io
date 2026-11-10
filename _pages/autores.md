@@ -27,6 +27,7 @@ Sugere-se utilizar os seguintes modelos para a apresentação do trabalho:
 
 <a href="/files/iiisas.pptx"  class="btn btn--info"> <i class="fa-solid fa-person-chalkboard"></i> Modelo de Slides em Powerpoint </a>
 
+
 ---
 
 A submissão do artigo deverá ser feita através do email <a href="mailto:submissao.sas@gmail.com" class="btn btn--warning"> <i class="fas fa-envelope"></i> submissao.sas@gmail.com </a> contendo as seguintes informações:
