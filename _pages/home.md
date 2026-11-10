@@ -16,13 +16,11 @@ O evento promove a integração entre universidade, pesquisa, tecnologia e indú
 
 ## Comemoração Especial: 30 Anos de Engenharia da Computação
 
-Nesta edição, o III SAS celebra os **30 anos do curso de Engenharia da Computação**. É um momento especial para reconhecer a trajetória do curso, sua contribuição para a formação de profissionais e pesquisadores, e para projetar os próximos anos da tecnologia e inovação. Durante o evento, teremos uma programação dedicada a essa história de três décadas.
-{: .notice--info}
-
-
+Nesta edição, o III SAS celebra os **30 anos do curso de Engenharia da Computação**.<br><br> É um momento especial para reconhecer a trajetória do curso, sua contribuição para a formação de profissionais e pesquisadores, e para projetar os próximos anos da tecnologia e inovação. Durante o evento, teremos uma programação dedicada a essa história de três décadas.<br><br>
 **Faça um tour virtual pelo DCA!**<br><a href="https://conect2ai.github.io/dca30/" class="center">
 <img src="/images/dca30.svg" alt="Logo DCA" height="100"><br> https://conect2ai.github.io/dca30</a>
 {: .text-center}
+{: .notice--info}
 
 ## O que você vai encontrar?
 
