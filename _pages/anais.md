@@ -1,7 +1,7 @@
 ---
 layout: splash
 header:
-  overlay_image: /images/laut-header.png
+  overlay_image: /images/anais-header.jpg
 title: "Anais do III SAS"
 meta_title: "Anais do III SAS"
 permalink: /anais/
