@@ -1,7 +1,7 @@
-PWD /home/ambj/workspace/sas3ufrn/anais
+PWD /home/ambj/workspace/sas3ufrn.github.io/anais
 INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
-INPUT /home/ambj/workspace/sas3ufrn/anais/anais_III_SAS_corrigido.tex
-OUTPUT anais_III_SAS_corrigido.log
+INPUT /home/ambj/workspace/sas3ufrn.github.io/anais/anais_III_SAS.tex
+OUTPUT anais_III_SAS.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ltluatex.lua
 INPUT /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-main.lua
@@ -51,7 +51,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.lua
 INPUT /usr/share/texlive/texmf-dist/tex/luatex/lua-uni-algos/lua-uni-stage-tables.lua
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
-INPUT /home/ambj/.texlive2026/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc
+INPUT /home/ambj/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/share/texmf/tex/latex/lm/t1lmr.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
@@ -195,8 +195,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 OUTPUT autores.idx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.lua
-INPUT ./anais_III_SAS_corrigido.aux
-OUTPUT anais_III_SAS_corrigido.aux
+INPUT ./anais_III_SAS.aux
+OUTPUT anais_III_SAS.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -204,10 +204,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-INPUT ./anais_III_SAS_corrigido.out
-INPUT ./anais_III_SAS_corrigido.out
-OUTPUT anais_III_SAS_corrigido.pdf
-OUTPUT anais_III_SAS_corrigido.out
+INPUT ./anais_III_SAS.out
+INPUT ./anais_III_SAS.out
+OUTPUT anais_III_SAS.pdf
+OUTPUT anais_III_SAS.out
 INPUT /usr/share/texmf/tex/latex/lm/t1lmss.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
@@ -220,7 +220,7 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmssbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss10.tfm
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /home/ambj/.texlive2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
@@ -244,7 +244,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
-INPUT ./anais_III_SAS_corrigido.toc
+INPUT ./anais_III_SAS.toc
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr8.tfm
@@ -259,7 +259,7 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy6.tfm
 INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmex10.tfm
-OUTPUT anais_III_SAS_corrigido.toc
+OUTPUT anais_III_SAS.toc
 INPUT ./artigos/01_estudos_preliminares_para_o_desenvolvimento_de_uma_arquitetura_modular_baseada_em_ia_para_interacao_com_sistemas_de_gestao_de_malhas_de_controle.pdf
 INPUT ./artigos/01_estudos_preliminares_para_o_desenvolvimento_de_uma_arquitetura_modular_baseada_em_ia_para_interacao_com_sistemas_de_gestao_de_malhas_de_controle.pdf
 INPUT ./artigos/01_estudos_preliminares_para_o_desenvolvimento_de_uma_arquitetura_modular_baseada_em_ia_para_interacao_com_sistemas_de_gestao_de_malhas_de_controle.pdf
@@ -859,7 +859,7 @@ INPUT ./artigos/18_desenvolvimento_de_uma_ferramenta_computacional_em_aplicacao_
 INPUT ./artigos/18_desenvolvimento_de_uma_ferramenta_computacional_em_aplicacao_web_para_simular_o_comportamento_dinamico_do_bombeio_por_cavidades_progressivas_bcp_e_estudar_o_fenomeno_de_reversao_d.pdf
 INPUT ./artigos/18_desenvolvimento_de_uma_ferramenta_computacional_em_aplicacao_web_para_simular_o_comportamento_dinamico_do_bombeio_por_cavidades_progressivas_bcp_e_estudar_o_fenomeno_de_reversao_d.pdf
 INPUT ./autores.ind
-INPUT ./anais_III_SAS_corrigido.aux
+INPUT ./anais_III_SAS.aux
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
