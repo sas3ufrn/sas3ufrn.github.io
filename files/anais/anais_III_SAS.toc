@@ -11,13 +11,14 @@
 \contentsline {section}{Uma revisão de metodologias inteligentes de classificação de curtos circuitos em sistemas elétricos de potência}{34}{section*.11}%
 \contentsline {section}{Interface baseada em agentes de IA para exploração e controle de qualidade de dados sísmicos}{42}{section*.12}%
 \contentsline {section}{Identificação de padrões e anomalias em reclamações de telecomunicações no Nordeste brasileiro usando aprendizado não supervisionado}{49}{section*.13}%
-\contentsline {section}{Biblioteca para cálculo de conjuntos invariantes com Julia}{57}{section*.14}%
-\contentsline {section}{Desenvolvimento de uma ferramenta computacional multicritério para avaliação de desempenho de controladores PID}{65}{section*.15}%
-\contentsline {section}{Framework paralelo de ajuste de campos de força atomísticos e coarse-grain de grafeno através de otimização por enxame de partículas PSO}{70}{section*.16}%
-\contentsline {section}{Plataforma Linux embarcada para integração de simulador de bombeio mecânico com controlador WEG ALC11}{78}{section*.17}%
-\contentsline {section}{Ressintonia automática de controladores PID baseada em estimativa de robustez}{84}{section*.18}%
-\contentsline {section}{Indústria sem telas: perspectivas para o uso de dispositivos vestíveis assistidos por modelos de linguagem de pequeno porte}{92}{section*.19}%
-\contentsline {section}{Arquitetura edge-cloud para monitoramento inteligente de veículos conectados com auditabilidade via blockchain}{100}{section*.20}%
-\contentsline {section}{Desenvolvimento de uma ferramenta computacional em aplicação WEB para simular o comportamento dinâmico do bombeio por cavidades progressivas (BCP) e estudar o fenômeno de reversão do fluxo}{108}{section*.21}%
-\contentsline {chapter}{Índice de autores}{115}{section*.22}%
-\contentsline {chapter}{Expediente}{116}{chapter*.24}%
+\contentsline {section}{Geração automática de equações de estado a partir de Bond Graphs: protótipo e validação numérica}{57}{section*.14}%
+\contentsline {section}{Biblioteca para cálculo de conjuntos invariantes com Julia}{64}{section*.15}%
+\contentsline {section}{Desenvolvimento de uma ferramenta computacional multicritério para avaliação de desempenho de controladores PID}{72}{section*.16}%
+\contentsline {section}{Framework paralelo de ajuste de campos de força atomísticos e coarse-grain de grafeno através de otimização por enxame de partículas PSO}{77}{section*.17}%
+\contentsline {section}{Plataforma Linux embarcada para integração de simulador de bombeio mecânico com controlador WEG ALC11}{85}{section*.18}%
+\contentsline {section}{Ressintonia automática de controladores PID baseada em estimativa de robustez}{91}{section*.19}%
+\contentsline {section}{Indústria sem telas: perspectivas para o uso de dispositivos vestíveis assistidos por modelos de linguagem de pequeno porte}{99}{section*.20}%
+\contentsline {section}{Arquitetura edge-cloud para monitoramento inteligente de veículos conectados com auditabilidade via blockchain}{107}{section*.21}%
+\contentsline {section}{Desenvolvimento de uma ferramenta computacional em aplicação WEB para simular o comportamento dinâmico do bombeio por cavidades progressivas (BCP) e estudar o fenômeno de reversão do fluxo}{115}{section*.22}%
+\contentsline {chapter}{Índice de autores}{122}{section*.23}%
+\contentsline {chapter}{Expediente}{123}{chapter*.25}%

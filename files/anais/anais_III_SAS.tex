@@ -115,11 +115,11 @@
   \begin{tikzpicture}[remember picture,overlay]
     \fill[SASLight] (current page.south west) rectangle (current page.north east);
     \fill[SASNavy] (current page.north west) rectangle
-    ([yshift=-0.48cm]current page.north east);
+      ([yshift=-0.48cm]current page.north east);
     \fill[SASGold] ([yshift=-0.48cm]current page.north west) rectangle
-    ([yshift=-0.56cm]current page.north east);
+      ([yshift=-0.56cm]current page.north east);
     \fill[SASOrange] (current page.south west) rectangle
-    ([yshift=0.32cm]current page.south east);
+      ([yshift=0.32cm]current page.south east);
   \end{tikzpicture}
 
   \vspace*{0.55cm}
@@ -135,7 +135,7 @@
     \vspace{0.9cm}
     {\sffamily\bfseries\color{SASOrange}\large \textbullet\ ANAIS \textbullet\ }\\[1cm]
     {\sffamily\bfseries\color{SASNavy}\fontsize{25}{30}\selectfont
-    III Simpósio\\[12pt] de Automação e Sistemas}
+      III Simpósio\\[12pt] de Automação e Sistemas}
 
     \vspace{0.5cm}
     {\color{SASGray}\rule{0.48\textwidth}{1.1pt}}
@@ -148,10 +148,10 @@
   \begin{center}
     \begin{tikzpicture}
       \node[fill=white,draw=SASBlue!25,rounded corners=3pt,
-      inner xsep=18pt,inner ysep=12pt,text width=0.72\textwidth,align=center] {
-      {\sffamily\bfseries\color{SASNavy} LAUT / DCA / CT / UFRN}\\[0.22cm]
-      {\sffamily\color{SASGray} NATAL -- RN}\\[0.18cm]
-      {\sffamily\bfseries\color{SASOrange} 2026}
+        inner xsep=18pt,inner ysep=12pt,text width=0.72\textwidth,align=center] {
+        {\sffamily\bfseries\color{SASNavy} LAUT / DCA / CT / UFRN}\\[0.22cm]
+        {\sffamily\color{SASGray} NATAL -- RN}\\[0.18cm]
+        {\sffamily\bfseries\color{SASOrange} 2026}
       };
     \end{tikzpicture}
 
@@ -302,55 +302,60 @@ Automação (DCA/UFRN).
 % TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
 \Artigo{06_uma_revisao_de_metodologias_inteligentes_de_classificacao_de_curtos_circuitos_em_sistemas_eletricos_de_potencia}
 {Uma revisão de metodologias inteligentes de classificação de curtos circuitos em sistemas elétricos de potência}
-{\Autor{Guilherme Nascimento da Silva}, \Autor{Fabio Meneghetti Ugulino de Araujo}, \Autor{Rodrigo Prado de Medeiros}}
+{\Autor{Guilherme Nascimento da Silva} \Autor{Fabio Meneghetti Ugulino de Araujo} \Autor{Rodrigo Prado de Medeiros}}
 
 % TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
 \Artigo{07_interface_baseada_em_agentes_de_ia_para_exploracao_e_controle_de_qualidade_de_dados_sismicos}
 {Interface baseada em agentes de IA para exploração e controle de qualidade de dados sísmicos}
-{\Autor{José A. A. Oliveira}, \Autor{Luiz F. S. Silva}, \Autor{Ernane Ferreira Rocha Junior}, \Autor{Victor Gomes}, \Autor{Ignacio Sánchez-Gendriz}, \Autor{Ivanovitch Silva}, \Autor{Luiz Affonso Guedes}, \Autor{Tiago Barros}}
+{\Autor{José A. A. Oliveira} \Autor{Luiz F. S. Silva} \Autor{Ernane Ferreira Rocha Junior} \Autor{Victor Gomes} \Autor{Ignacio Sánchez-Gendriz} \Autor{Ivanovitch Silva} \Autor{Luiz Affonso Guedes} \Autor{Tiago Barros}}
 
 % TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
 \Artigo{08_identificacao_de_padroes_e_anomalias_em_reclamacoes_de_telecomunicacoes_no_nordeste_brasileiro_usando_aprendizado_nao_supervisionado}
 {Identificação de padrões e anomalias em reclamações de telecomunicações no Nordeste brasileiro usando aprendizado não supervisionado}
-{\Autor{Sayonara Cristina de Oliveira Magalhães}, \Autor{Emelyn Clementino Freire}, \Autor{Arthur Phelipe de Oliveira Queiroz}, \Autor{Marcelo Jorge Oliveira de Albuquerque Melo}}
+{\Autor{Sayonara Cristina de Oliveira Magalhães} \Autor{Emelyn Clementino Freire} \Autor{Arthur Phelipe de Oliveira Queiroz} \Autor{Marcelo Jorge Oliveira de Albuquerque Melo}}
+
+
+\Artigo{09_geracao_automatica_de_equacoes_de_estado_a_partir_de_bond_graphs_prototipo_e_validacao_numerica}
+{Geração automática de equações de estado a partir de Bond Graphs: protótipo e validação numérica}
+{ \Autor{Emelyn Clementino Freire} \Autor{Arthur Phelipe de Oliveira Queiroz} \Autor{Jaysa Keylla Siqueira Barbosa} \Autor{Guilherme Souza de Farias} \Autor{Sayonara Cristina de O. Magalhães} \Autor{André Laurindo Maitelli}}
 
 % TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
 \Artigo{10_biblioteca_para_calculo_de_conjuntos_invariantes_com_julia}
 {Biblioteca para cálculo de conjuntos invariantes com Julia}
-{\Autor{Nicholas W. Lopes}, \Autor{Felipe R. Silva}, \Autor{Carlos E. T. Dórea}}
+{\Autor{Nicholas W. Lopes} \Autor{Felipe R. Silva} \Autor{Carlos E. T. Dórea}}
 
 % TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
 \Artigo{12_desenvolvimento_de_ferramenta_computacional_multicriterio_para_avaliacao_de_desempenho_de_controladores_pid}
 {Desenvolvimento de uma ferramenta computacional multicritério para avaliação de desempenho de controladores PID}
-{\Autor{Thyfanne Dayane Cosme do Nascimento}, \Autor{Dominic Nascimento Rodrigues}, \Autor{André Laurindo Maitelli}}
+{\Autor{Thyfanne Dayane Cosme do Nascimento} \Autor{Dominic Nascimento Rodrigues} \Autor{André Laurindo Maitelli}}
 
 % TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
 \Artigo{13_framework_paralelo_de_ajuste_de_campos_de_forca_atomisticos_e_coarse_grain_de_grafeno_atraves_de_otimizacao_por_enxame_de_particulas_pso}
 {Framework paralelo de ajuste de campos de força atomísticos e coarse-grain de grafeno através de otimização por enxame de partículas PSO}
-{\Autor{Iwri Simplicio Felipe}, \Autor{Elton José Figueiredo de Carvalho}}
+{\Autor{Iwri Simplicio Felipe} \Autor{Elton José Figueiredo de Carvalho}}
 
 % TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
 \Artigo{14_plataforma_linux_embarcada_para_integracao_de_simulador_de_bombeio_mecanico_com_controlador_weg_alc11}
 {Plataforma Linux embarcada para integração de simulador de bombeio mecânico com controlador WEG ALC11}
-{\Autor{Diego Moura}, \Autor{Andres Ortiz}, \Autor{André Laurindo Maitelli}, \Autor{Rodrigo Dacol}}
+{\Autor{Diego Moura} \Autor{Andres Ortiz} \Autor{André Laurindo Maitelli} \Autor{Rodrigo Dacol}}
 
 % TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
 \Artigo{15_ressintonia_automatica_de_controladores_pid_baseada_em_estimativa_de_robustez}
 {Ressintonia automática de controladores PID baseada em estimativa de robustez}
-{\Autor{Araújo, Marina L.}, \Autor{Dórea, C. E. Trabuco}}
+{\Autor{Araújo, Marina L.} \Autor{Dórea, C. E. Trabuco}}
 
 % TODO: preencher autores -> {\Autor{Sobrenome, Nome}\Autor{...}}
 \Artigo{16_industria_sem_telas_perspectivas_para_o_uso_de_dispositivos_vestiveis_assistidos_por_modelos_de_linguagem_de_pequeno_porte}
 {Indústria sem telas: perspectivas para o uso de dispositivos vestíveis assistidos por modelos de linguagem de pequeno porte}
-{\Autor{Mateus Araujo}, \Autor{Leonardo Cavalcanti}, \Autor{Alice Freire}, \Autor{Morsinaldo Medeiros}, \Autor{Hilton Machado}, \Autor{Erick Justino}, \Autor{Marianne Silva}, \Autor{Carlos M. D. Viegas}, \Autor{Ivanovitch Silva}}
+{\Autor{Mateus Araujo} \Autor{Leonardo Cavalcanti} \Autor{Alice Freire} \Autor{Morsinaldo Medeiros} \Autor{Hilton Machado} \Autor{Erick Justino} \Autor{Marianne Silva} \Autor{Carlos M. D. Viegas} \Autor{Ivanovitch Silva}}
 
 \Artigo{17_arquitetura_edgecloud_para_monitoramento_inteligente_de_veiculos_conectados_com_auditabilidade_via_blockchain}
 {Arquitetura edge-cloud para monitoramento inteligente de veículos conectados com auditabilidade via blockchain}
-{\Autor{Miguel Euripedes}, \Autor{Morsinaldo Medeiros}, \Autor{Thais Medeiros}, \Autor{Hilton Machado}, \Autor{Erick Justino}, \Autor{Alice Freire}, \Autor{Marianne Silva}, \Autor{Carlos M. D. Viegas}, \Autor{Ivanovitch Silva}}
+{\Autor{Miguel Euripedes} \Autor{Morsinaldo Medeiros} \Autor{Thais Medeiros} \Autor{Hilton Machado} \Autor{Erick Justino} \Autor{Alice Freire} \Autor{Marianne Silva} \Autor{Carlos M. D. Viegas} \Autor{Ivanovitch Silva}}
 
 \Artigo{18_desenvolvimento_de_uma_ferramenta_computacional_em_aplicacao_web_para_simular_o_comportamento_dinamico_do_bombeio_por_cavidades_progressivas_bcp_e_estudar_o_fenomeno_de_reversao_d}
 {Desenvolvimento de uma ferramenta computacional em aplicação WEB para simular o comportamento dinâmico do bombeio por cavidades progressivas (BCP) e estudar o fenômeno de reversão do fluxo}
-{\Autor{Guilherme da Costa Medeiros Nascimento}, \Autor{André Laurindo Maitelli}, \Autor{Camila Raquel Sena de Almeida}, \Autor{Pedro Manuel Pereira Chamorro}, \Autor{Rutácio de Oliveira Costa} }
+{\Autor{Guilherme da Costa Medeiros Nascimento} \Autor{André Laurindo Maitelli} \Autor{Camila Raquel Sena de Almeida} \Autor{Pedro Manuel Pereira Chamorro} \Autor{Rutácio de Oliveira Costa} }
 
 % =================================================================
 % Elementos pós-textuais
