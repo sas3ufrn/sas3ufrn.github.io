@@ -50,15 +50,15 @@ permalink: /programacao/
 {: .tabela-prog}
 ## Dia 13/11/2026 (Sexta-Feira) - Auditório do CTEC
 
-| Horário       | Atividade                                                                                                                                       |
-| :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 09h00 - 10h00 | Plenária 2 – Automação aplicada ao setor de óleo e gás (Msc. Heitor Gomes – CEO Idus Inteligência Industrial e Prof. André Maitelli - DCA/UFRN) |
-| 10h00 - 10h30 | Coffee-Break                                                                                                                                    |
-| 10h30 - 12h10 | Apresentação de artigos (5 artigos) (15+05 minutos) – Chairs: Meneghetti/Ortiz                                                                  |
-| 12h30 - 14h00 | Almoço                                                                                                                                          |
-| 14h00 - 15h40 | Apresentação de artigos (5 artigos) (15+05 minutos) – Chairs: Maitelli/Diego                                                                    |
-| 16h00 - 16h30 | Coffee-Break                                                                                                                                    |
-| 16h30 - 17h00 | Encerramento                                                                                                                                    |
+| Horário       | Atividade                                                                                                                                          |
+| :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 09h00 - 10h00 | Plenária 2 – Automação aplicada ao setor de óleo e gás (Mohamad Sadeque Abou Ali – Idus Inteligência Industrial e Prof. André Maitelli - DCA/UFRN) |
+| 10h00 - 10h30 | Coffee-Break                                                                                                                                       |
+| 10h30 - 12h10 | Apresentação de artigos (5 artigos) (15+05 minutos) – Chairs: Meneghetti/Ortiz                                                                     |
+| 12h30 - 14h00 | Almoço                                                                                                                                             |
+| 14h00 - 15h40 | Apresentação de artigos (5 artigos) (15+05 minutos) – Chairs: Maitelli/Diego                                                                       |
+| 16h00 - 16h30 | Coffee-Break                                                                                                                                       |
+| 16h30 - 17h00 | Encerramento                                                                                                                                       |
 {: .tabela-prog}
 ### Apresentação de artigos – Sexta-Feira (13/11/2026), manhã
 
